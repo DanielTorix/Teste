@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Company</fullName>
-    <description>Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account</description>
-    <trackFeedHistory>false</trackFeedHistory>
-</CustomField>

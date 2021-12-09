@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Status</fullName>
-    <description>Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can&apos;t be edited unless they are reactivated.</description>
-    <trackFeedHistory>true</trackFeedHistory>
-    <type>Picklist</type>
-</CustomField>

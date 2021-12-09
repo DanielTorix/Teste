@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>OwnerId</fullName>
-    <description>Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user</description>
-    <trackFeedHistory>true</trackFeedHistory>
-    <trackTrending>false</trackTrending>
-    <type>Lookup</type>
-</CustomField>

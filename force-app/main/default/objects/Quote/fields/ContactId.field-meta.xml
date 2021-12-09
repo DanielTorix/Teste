@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ContactId</fullName>
-    <description>Name and Surname of contact for who the quote is being prepared - Decision Maker identified in the opportunity</description>
-    <trackFeedHistory>false</trackFeedHistory>
-    <type>Lookup</type>
-</CustomField>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>An API method that is called from the API framework. In this entity it is defined the associated path, http method, input message template (using merge fields), mock output message and output deserializable apex class.</description>
-    <label>CEP API Method</label>
-    <pluralLabel>CEP API Methods</pluralLabel>
-    <visibility>Public</visibility>
-</CustomObject>

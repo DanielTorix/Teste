@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help>Červená: Faktúra po splatnosti Oranžová: Faktúra splatná v blízkej dobe. Zelená: Faktúra pred dátumom splatnosti.</help>
-    <label>Indikátor dátumu splatnosti</label>
-    <name>TrafficLight__c</name>
-</CustomFieldTranslation>

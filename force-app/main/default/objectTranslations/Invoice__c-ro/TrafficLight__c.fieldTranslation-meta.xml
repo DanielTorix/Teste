@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help>Verde: Factura nescadenta  Galben; Factura scadenta in scurt timp Rosu: Factura cu scadenta depasita</help>
-    <label>Indicator dată scadență</label>
-    <name>TrafficLight__c</name>
-</CustomFieldTranslation>

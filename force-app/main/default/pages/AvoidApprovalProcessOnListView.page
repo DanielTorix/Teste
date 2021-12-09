@@ -1,3 +1,0 @@
-<apex:page standardController="ProcessInstanceWorkitem">
-    <p>Please Navigate to the Quote Page and Approve/Reject from there.</p>
-</apex:page>

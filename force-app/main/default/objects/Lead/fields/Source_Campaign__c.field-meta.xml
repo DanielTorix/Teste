@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Campaign__c</fullName>
+    <description>Describe the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify communications received by the lead.</description>
+    <externalId>false</externalId>
+    <label>Source Campaign</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CantEditComplaintWhenClosed</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT($Setup.CEPSkipValidationRules__c.Case__c) &amp;&amp;
+RecordType.DeveloperName = &apos;Complaint&apos; &amp;&amp;
+IsClosed = TRUE &amp;&amp; 
+ReopenedInFlow__c = FALSE</errorConditionFormula>
+    <errorMessage>The complaint you are trying to edit has been already closed. If you need to make some modification, contact your supervisor to reopen the complaint.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Contract Master Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contract Fulfillment</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FPS Contract</layout>
+        <sections>
+            <label></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credit Limit</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Document</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Header</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sales Contract Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Document</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>CEP_FPS_CONTRACT</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CEP_FPS_CONTRACT_MASTER</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CEP_FPS_SALES_CONTRACT</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>InvalidStatusValue</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Place_a_New_Order</name>
+    </webLinks>
+</CustomObjectTranslation>

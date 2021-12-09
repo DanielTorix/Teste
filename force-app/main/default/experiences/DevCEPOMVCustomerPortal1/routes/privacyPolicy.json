@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "25df19b5-5bbc-43ac-84dc-60de89f059ad",
+  "appPageId" : "9e5c3868-9482-43ba-a489-36c0dc424a67",
+  "configurationTags" : [ ],
+  "id" : "18d4417b-3b81-4ced-ac0b-b1b23e159bf2",
+  "label" : "Privacy Policy",
+  "pageAccess" : "Public",
+  "routeType" : "custom-privacy-policy",
+  "type" : "route",
+  "urlPrefix" : "privacy-policy"
+}

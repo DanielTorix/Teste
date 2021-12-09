@@ -1,0 +1,37 @@
+<template>
+    <template if:true={hasCreditLimit}>
+        <table>
+            <tr class="card-background" style="padding-top: 8px; padding-bottom: 8px;">
+                <td colspan="3">
+                    <p style="text-align: center; font-weight: bold;">{creditLimit.header}</p>
+                </td>
+            </tr>
+            <tr height="6px" class="card-separator">
+                <td colspan="3">
+                </td>
+            </tr>
+            <template for:each={creditLimit.creditLimitItemList} for:item="item">
+                <tr class="card-background" key={item.position}>
+                    <td>
+                        <img src={item.iconUrl} width="24" height="24">
+                    </td>
+                    <td>
+                        {item.label}
+                    </td>
+                    <td>
+                        {item.formatValue}
+                    </td>
+                </tr>
+                <tr height="3px" class="card-separator" key={item.position}>
+                    <td colspan="3">
+                    </td>
+                </tr>
+            </template>
+        </table>
+    </template>
+    <template if:false={hasCreditLimit}>
+        <div class="card-background">
+            No credit limit information in the system.
+        </div>
+    </template>
+</template>

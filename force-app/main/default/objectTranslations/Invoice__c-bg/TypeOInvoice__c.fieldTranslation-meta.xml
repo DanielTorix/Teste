@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Вид на фактурата</label>
+    <name>TypeOInvoice__c</name>
+    <picklistValues>
+        <masterLabel>Advance payment</masterLabel>
+        <translation>Авансово плащане</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS12</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS92</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel invoice debit</masterLabel>
+        <translation>Протокол за анулиране на фактура</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel prepayment invoice</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS13</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS93</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit memo invoice</masterLabel>
+        <translation>Кредитно известие</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD</masterLabel>
+        <translation>Дебитно известие</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD1</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD2</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit note CO2</masterLabel>
+        <translation>Дебитно известие за компенсиране на СО2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice debit</masterLabel>
+        <translation>Фактура</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DA</masterLabel>
+        <translation>Съобщение за лихви за просрочие ДA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DF</masterLabel>
+        <translation>Съобщение за лихви за просрочие ДФ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepayment invoice</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return invoice</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

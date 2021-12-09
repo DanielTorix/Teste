@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityCategory__c</fullName>
+    <description>Reason for the call</description>
+    <externalId>false</externalId>
+    <label>Activity Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New customer - Initial contact</fullName>
+                <default>false</default>
+                <label>New customer - Initial contact</label>
+            </value>
+            <value>
+                <fullName>New customer - Offer call</fullName>
+                <default>false</default>
+                <label>New customer - Offer call</label>
+            </value>
+            <value>
+                <fullName>New customer - Negotiate offer</fullName>
+                <default>false</default>
+                <label>New customer - Negotiate offer</label>
+            </value>
+            <value>
+                <fullName>New customer - Contract signing</fullName>
+                <default>false</default>
+                <label>New customer - Contract signing</label>
+            </value>
+            <value>
+                <fullName>New customer - Onboarding</fullName>
+                <default>false</default>
+                <label>New customer - Onboarding</label>
+            </value>
+            <value>
+                <fullName>Existing customer -  Complaint handling</fullName>
+                <default>false</default>
+                <label>Existing customer -  Complaint handling</label>
+            </value>
+            <value>
+                <fullName>Existing customer -  Deal negotiation</fullName>
+                <default>false</default>
+                <label>Existing customer -  Deal negotiation</label>
+            </value>
+            <value>
+                <fullName>Existing customer - Relationship management</fullName>
+                <default>false</default>
+                <label>Existing customer - Relationship management</label>
+            </value>
+            <value>
+                <fullName>Existing customer -  Retention</fullName>
+                <default>false</default>
+                <label>Existing customer -  Retention</label>
+            </value>
+            <value>
+                <fullName>Existing customer -  Upselling</fullName>
+                <default>false</default>
+                <label>Existing customer -  Upselling</label>
+            </value>
+            <value>
+                <fullName>Inbound customer call</fullName>
+                <default>false</default>
+                <label>Inbound customer call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

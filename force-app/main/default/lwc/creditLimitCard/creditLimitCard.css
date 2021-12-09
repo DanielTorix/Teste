@@ -1,0 +1,11 @@
+.card-background {
+    background-color: #365880;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.card-separator {
+    background-color: #ffffff;
+    height: 2px;
+}

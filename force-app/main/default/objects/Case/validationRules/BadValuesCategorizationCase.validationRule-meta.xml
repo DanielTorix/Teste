@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BadValuesCategorizationCase</fullName>
+    <active>true</active>
+    <description>give error when changing record type and have in</description>
+    <errorConditionFormula>AND(
+				NOT($Setup.CEPSkipValidationRules__c.Case__c),
+				ISCHANGED(RecordTypeId),
+				RecordType.DeveloperName = &apos;Case&apos;,
+				OR(
+        (
+				        ISPICKVAL(CategoryT1__c, &apos;Fuel quality&apos;) ||
+				        ISPICKVAL(CategoryT1__c, &apos;Invoice&apos;) ||
+						    		ISPICKVAL(CategoryT1__c, &apos;Behavior&apos;)
+			    	),
+				    (
+							     ISPICKVAL(CategoryT2__c, &apos;Card acceptance issues&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Delivery Card/PIN issues&apos;) ||
+							    	ISPICKVAL(CategoryT2__c, &apos;Fuel quality&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Invoice problems&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Voucher business&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Transactions&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Fines&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;OBUs issues&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Issues&apos;) ||
+								    ISPICKVAL(CategoryT2__c, &apos;Service Quality&apos;)
+        ),
+				    (
+								    ISPICKVAL(CategoryT3__c, &apos;Card acceptance issues&apos;) ||
+				        ISPICKVAL(CategoryT3__c, &apos;Card / PIN not received&apos;) ||
+				        ISPICKVAL(CategoryT3__c, &apos;Wrong card embossed&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Illegible PIN&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other card claim&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Fuel quality&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Transaction issue&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Wrong or missing data&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other invoice claim&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Voucher usage&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Voucher delivery&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Voucher other&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Doubled transactions&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Not recognized TRX&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Transactions received after cancellation&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Vignette&apos;) ||
+            ISPICKVAL(CategoryT3__c, &apos;Fines&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Blocked device&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Blocked account&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Device not working&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other OBUs claim&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other card complaint&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Invoice not received&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other invoice complaint&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Other OBUs complaint&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Not working&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;CSO Agent&apos;) ||
+								    ISPICKVAL(CategoryT3__c, &apos;Sales or Other&apos;)
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>The category values you selected are not valid for the type of case you are trying to convert</errorMessage>
+</ValidationRule>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UseofAuthorizedPartners__c</fullName>
+    <description>Field to identify if the information can be used by authorized partners</description>
+    <externalId>false</externalId>
+    <label>Use of Authorized Partners</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>true</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>OMV Group Companies</fullName>
+                <default>false</default>
+                <label>OMV Group Companies</label>
+            </value>
+            <value>
+                <fullName>OMV Group Companies and/or OMV Partners</fullName>
+                <default>false</default>
+                <label>OMV Group Companies and/or OMV Partners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

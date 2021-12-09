@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PaymentMethod__c</fullName>
+    <description>Payment method defined under object account</description>
+    <externalId>false</externalId>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Debit</fullName>
+                <default>false</default>
+                <label>Direct Debit</label>
+            </value>
+            <value>
+                <fullName>Sepa DD B2B</fullName>
+                <default>false</default>
+                <label>Sepa DD B2B</label>
+            </value>
+            <value>
+                <fullName>SEPA DD Core</fullName>
+                <default>false</default>
+                <label>SEPA DD Core</label>
+            </value>
+            <value>
+                <fullName>Self-paying</fullName>
+                <default>false</default>
+                <label>Self-paying</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BonusAndCommissionInvoices</fullName>
+    <columns>NAME</columns>
+    <columns>InvoiceSAPNumber__c</columns>
+    <columns>Status__c</columns>
+    <columns>TypeOInvoice__c</columns>
+    <columns>Amount__c</columns>
+    <columns>IssueDate__c</columns>
+    <columns>DueDate__c</columns>
+    <columns>TrafficLight__c</columns>
+    <columns>PaymentDate__c</columns>
+    <columns>DownloadLink__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TypeOInvoice__c</field>
+        <operation>equals</operation>
+        <value>ZS12,ZS92,ZS13,ZS93</value>
+    </filters>
+    <label>Bonus and Commission Invoices</label>
+    <sharedTo>
+        <allCustomerPortalUsers></allCustomerPortalUsers>
+    </sharedTo>
+</ListView>

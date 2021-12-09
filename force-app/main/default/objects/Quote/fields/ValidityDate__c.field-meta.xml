@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidityDate__c</fullName>
+    <defaultValue>ADDMONTHS(TODAY(),1)</defaultValue>
+    <description>Identify the expiration date of the quote for the customer to be aware that he sould reply until x date. System default is 30 days.</description>
+    <externalId>false</externalId>
+    <label>Validity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

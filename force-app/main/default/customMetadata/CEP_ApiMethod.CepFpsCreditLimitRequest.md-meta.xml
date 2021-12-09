@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CEP FPS Credit Limit Request</label>
+    <protected>false</protected>
+    <values>
+        <field>ApiPath__c</field>
+        <value xsi:type="xsd:string">CEP</value>
+    </values>
+    <values>
+        <field>ContentType__c</field>
+        <value xsi:type="xsd:string">application/json</value>
+    </values>
+    <values>
+        <field>HttpMethod__c</field>
+        <value xsi:type="xsd:string">GET</value>
+    </values>
+    <values>
+        <field>Input__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>MockOutput__c</field>
+        <value xsi:type="xsd:string">{ &quot;CustomerCreditLimit&quot;: 1023.20, &quot;RemainingCreditLimit&quot;: 512.23, &quot;OpenItemsDueForPayment&quot;: 123.43, &quot;PaymentHistoryInDays&quot;: 30, &quot;RatioOfDunningNoticesToInvoice&quot;: 12, &quot;NextReview&quot;: 20230101, &quot;DunningLevel&quot;: &quot;0&quot;, &quot;RiskClass&quot;: &quot;AAA&quot;, &quot;CurrencyKey&quot;: &quot;EUR&quot; }</value>
+    </values>
+    <values>
+        <field>OutputDeserializeClassName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SubPath__c</field>
+        <value xsi:type="xsd:string">/creditLimit?CustomerNumber={!customerNumber}&amp;SalesOrganization={!salesOrganization}</value>
+    </values>
+    <values>
+        <field>TimeoutOverride__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

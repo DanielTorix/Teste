@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Pricing Manager</label>
+    <permissionSets>AccountsRU</permissionSets>
+    <permissionSets>CaseCRU</permissionSets>
+    <permissionSets>ContactRU</permissionSets>
+    <permissionSets>ContractRU</permissionSets>
+    <permissionSets>CreateCaseFromEmail</permissionSets>
+    <permissionSets>CreateDashboardFolders</permissionSets>
+    <permissionSets>CreateFoldersforLightningEmailTemplates</permissionSets>
+    <permissionSets>CreateReportFolders</permissionSets>
+    <permissionSets>CreateandCustomizeDashboard</permissionSets>
+    <permissionSets>CreateandCustomizeReports</permissionSets>
+    <permissionSets>ExportReports</permissionSets>
+    <permissionSets>LeadRU</permissionSets>
+    <permissionSets>ManageDashboardsinPublicFolders</permissionSets>
+    <permissionSets>ManagePublicLightningEmailTemplates</permissionSets>
+    <permissionSets>ManagePublicListViews</permissionSets>
+    <permissionSets>ManageReportsinPublicFolders</permissionSets>
+    <permissionSets>OpportunityRU</permissionSets>
+    <permissionSets>PriceBooksCRUD</permissionSets>
+    <permissionSets>ProductsCRUD</permissionSets>
+    <permissionSets>ProductsDiscountCRUD</permissionSets>
+    <permissionSets>ProductsDiscountCriteriaCRUD</permissionSets>
+    <permissionSets>QuoteRU</permissionSets>
+    <permissionSets>SubscribeandScheduleDashboards</permissionSets>
+    <permissionSets>SubscribeandScheduleReports</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

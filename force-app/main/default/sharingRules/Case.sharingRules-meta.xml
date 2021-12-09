@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CompanyCodeBratislava</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Case has a parent-child relationship with an account with Company Code = SK, CZ, HU, AT, DE it should be shared (Read/Write permission) with the agents with the CSO Bratislava Agent Role</description>
+        <label>Company Code Bratislava</label>
+        <sharedTo>
+            <role>CSOBratislavaAgents</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CompanyCodeCountry__c</field>
+            <operation>equals</operation>
+            <value>Austria,Germany,Hungary,Slovakia,Czech Republic</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CompanyCodeBulgaria</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Case has a parent-child relationship with an account with the Company Code = BG it should be shared (Read/Write permission) with the agents with the CSO Bulgaria Agent Role</description>
+        <label>Company Code Bulgaria</label>
+        <sharedTo>
+            <role>CSOBulgariaAgents</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CompanyCodeCountry__c</field>
+            <operation>equals</operation>
+            <value>Bulgaria</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CompanyCodeMoldova</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Case has a parent-child relationship with an account with the Company Code = MD it should be shared (Read/Write permission) with the agents with the CSO Moldova Agent Role</description>
+        <label>Company Code Moldova</label>
+        <sharedTo>
+            <role>CSOMoldovaAgents</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CompanyCodeCountry__c</field>
+            <operation>equals</operation>
+            <value>Moldova</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CompanyCodeRomania</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Case has a parent-child relationship with an account with the Company Code = RO it should be shared (Read/Write permission) with the agents with the CSO Romania Agent Role</description>
+        <label>Company Code Romania</label>
+        <sharedTo>
+            <role>CSORomaniaAgents</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CompanyCodeCountry__c</field>
+            <operation>equals</operation>
+            <value>Romania</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CompanyCodeSerbia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>If a Case has a parent-child relationship with an account with the Company Code = RS it should be shared (Read/Write permission) with the agents with the CSO Serbia Agent Role</description>
+        <label>Company Code Serbia</label>
+        <sharedTo>
+            <role>CSOSerbiaAgents</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CompanyCodeCountry__c</field>
+            <operation>equals</operation>
+            <value>9</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>ATRegionalManagerRole</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by a Sales Representative with the AT Regional Manager Role, it should be shared (Read/Write permission) with the Sales Representative with AT Regional Manager Role</description>
+        <label>AT Regional Manager Role</label>
+        <sharedTo>
+            <role>RegionalManager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>RegionalManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ATSalesManagerRole</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by a Sales Representative with the AT Sales Manager Role, it should be shared (Read/Write permission) with the Sales Representative with AT Sales Manager Role</description>
+        <label>AT Sales Manager Role</label>
+        <sharedTo>
+            <role>ATSalesManager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ATSalesManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerBratislavaAgent</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Bratislava Agent Role, all the other Agents with the same role (CSO Bratislava Agent) must have Read/Write permission to that same record</description>
+        <label>Case Owner Bratislava Agent</label>
+        <sharedTo>
+            <role>CSOBratislavaAgents</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSOBratislavaAgents</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerBulgariaAgent</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Bulgaria Agent Role, all the other Agents with the same role (CSO Bulgaria Agent) must have Read/Write permission to that same record</description>
+        <label>Case Owner Bulgaria Agent</label>
+        <sharedTo>
+            <role>CSOBulgariaAgents</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSOBulgariaAgents</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerCSOManagement</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Management Role, all the other Agents with the same role (CSO Management) must have Read/Write permission to that same record</description>
+        <label>Case Owner CSO Management</label>
+        <sharedTo>
+            <role>CSOManager</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSOManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerMoldovaAgent</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Moldova Agent Role, all the other Agents with the same role (CSO Moldova Agent) must have Read/Write permission to that same record</description>
+        <label>Case Owner Moldova Agent</label>
+        <sharedTo>
+            <role>CSOMoldovaAgents</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSOMoldovaAgents</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerRomaniaAgent</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Romania Agent Role, all the other Agents with the same role (CSO Romania Agent) must have Read/Write permission to that same record</description>
+        <label>Case Owner Romania Agent</label>
+        <sharedTo>
+            <role>CSORomaniaAgents</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSORomaniaAgents</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>CaseOwnerSerbiaAgent</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>When a Case is Owned by an Agent with the CSO Serbia Agent Role, all the other Agents with the same role (CSO Serbia Agent) must have Read/Write permission to that same record</description>
+        <label>Case Owner Serbia Agent</label>
+        <sharedTo>
+            <role>CSOSerbiaAgents</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>CSOSerbiaAgents</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,149 @@
+{
+  "appPageId" : "cb6edbe7-793b-4841-b251-b365ea50459b",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "id" : "3e5bc689-4103-451d-93b2-9333d2d30e28",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<img class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-home-banner.png'             style='width:100%;'/>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "5212d6f7-b3c2-4709-957d-8dc5b1f1f669",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(212, 212, 212)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "4b2e78b7-3b2b-4a4f-99a4-0048179a010b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0c37aae9-719e-4066-88d6-23b1b7706729",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImage" : "CEPFPSPortalHeaderImg",
+        "backgroundStyle" : "background-color: black; background-size: 100% 100%;",
+        "button" : "Learn more",
+        "buttonDivStyle" : "text-align: center; padding-top: 25px;",
+        "buttonStyle" : "background-color: #33cc00; border: none; color: white; padding: 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer; border-radius: 30px;",
+        "buttonURL" : "https://www.lipsum.com",
+        "content" : "Learn how something is being done with the OMV chemicals!!!",
+        "contentStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 18px; color: white;",
+        "header" : "No cenas without OMV?",
+        "headerStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 24px; font-weight: bold; color: white;",
+        "height" : "250px",
+        "width" : "300px"
+      },
+      "componentName" : "c:communityImageCard",
+      "id" : "b4bbe6ab-ec63-4fc9-96bf-aa58a4979131",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "MyOpenCases",
+        "layout" : "STANDARD",
+        "pageSize" : 5,
+        "scope" : "Case",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "377ddaea-0d5a-467d-8082-88452293141d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "040c3acb-6974-4f9b-9df8-bda0b38eea54",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "deleteButtonText" : "Delete",
+        "pageSize" : 10,
+        "resumeButtonAlign" : "right",
+        "resumeButtonLabel" : "Resume",
+        "showDeleteButton" : false,
+        "showNumberInTitle" : true,
+        "showOwnerName" : false,
+        "showPauseReason" : true,
+        "showPauseStep" : true,
+        "showPauseTime" : true,
+        "title" : "Paused Flows"
+      },
+      "componentName" : "forceCommunity:pausedInterviewCard",
+      "id" : "f46570f2-5baf-4eea-aae4-f4efae57db6a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "             <p><b style=\"font-size: 16px;\">Quick Links</b></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 1</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 2</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 3</a></p>             <p><br></p>             <p><a href=\"http://www.salesforce.com/\" target=\"_blank\">Link 4</a></p>         "
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "1637c119-8572-4f70-bb45-0cc9b4a7aca4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5113e926-34dc-4d0d-ae9a-82964fba8611",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "925b063b-e901-40fa-b791-32e4ba35824c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b3359cbf-17e5-418d-9584-7a8f0b72bf6c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "24171d1f-4981-4cdd-a69a-33d958628525",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "81df5abd-1898-4c30-a69c-e287791c1bae",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

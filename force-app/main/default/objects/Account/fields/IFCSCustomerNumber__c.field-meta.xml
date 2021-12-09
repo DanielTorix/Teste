@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IFCSCustomerNumber__c</fullName>
+    <description>Unique number that will come from MS Dynamics in first stage and later one from IFCS (same number)</description>
+    <externalId>false</externalId>
+    <label>IFCS Customer Number</label>
+    <length>16</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

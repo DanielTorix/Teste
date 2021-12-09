@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTITechnicalPhone__c</fullName>
+    <description>Technical field that stores the 7 digits of the (Phone) so CTI can search the number in the Global Search</description>
+    <externalId>false</externalId>
+    <label>Phone</label>
+    <length>7</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

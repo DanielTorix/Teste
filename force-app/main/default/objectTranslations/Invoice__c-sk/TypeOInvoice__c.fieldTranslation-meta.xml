@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Typ faktúry</label>
+    <name>TypeOInvoice__c</name>
+    <picklistValues>
+        <masterLabel>Advance payment</masterLabel>
+        <translation>Zálohová platba</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS12</masterLabel>
+        <translation>Bonusová faktúra - ZS12</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS92</masterLabel>
+        <translation>Bonusová faktúra - ZS92</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel invoice debit</masterLabel>
+        <translation>Zrušiť faktúru</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel prepayment invoice</masterLabel>
+        <translation>Zrušiť predfaktúru</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS13</masterLabel>
+        <translation>Provízna faktúra - ZS13</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS93</masterLabel>
+        <translation>Provízna faktúra - ZS93</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit memo invoice</masterLabel>
+        <translation>Dobropis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD</masterLabel>
+        <translation>Debetná faktúra - ZMD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD1</masterLabel>
+        <translation>Debetná faktúra - ZMD1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD2</masterLabel>
+        <translation>Debetná faktúra - ZMD2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit note CO2</masterLabel>
+        <translation>Poplatok za kompenzáciu CO2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice debit</masterLabel>
+        <translation>Debetná faktúra</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DA</masterLabel>
+        <translation>Úroky z omeškania - DA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DF</masterLabel>
+        <translation>Úroky z omeškania - DF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepayment invoice</masterLabel>
+        <translation>Predfaktúra</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return invoice</masterLabel>
+        <translation>Vrátiť faktúru</translation>
+    </picklistValues>
+</CustomFieldTranslation>

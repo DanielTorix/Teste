@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "04c3d119-ef2b-40c0-98af-9b4ba7d06586",
+  "appPageId" : "9e5c3868-9482-43ba-a489-36c0dc424a67",
+  "configurationTags" : [ ],
+  "id" : "4863cf1c-49af-429d-9db0-54ea4c1a2f64",
+  "label" : "xpto",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-xpto",
+  "type" : "route",
+  "urlPrefix" : "xpto"
+}

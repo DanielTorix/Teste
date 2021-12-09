@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>FBAM team Assignment rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>FBAM_team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>OBAM team Assignment rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>OBAM_team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Tender Assignment rule</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Tender</assignedTo>
+            <assignedToType>Queue</assignedToType>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

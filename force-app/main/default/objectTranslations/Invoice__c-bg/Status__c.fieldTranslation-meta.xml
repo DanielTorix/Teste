@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Статус</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Cleared</masterLabel>
+        <translation>Закрита</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Платена</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice in progress</masterLabel>
+        <translation>Фактура в процес на обработка</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New invoice</masterLabel>
+        <translation>Нова фактура</translation>
+    </picklistValues>
+</CustomFieldTranslation>

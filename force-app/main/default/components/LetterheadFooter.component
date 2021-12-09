@@ -1,0 +1,29 @@
+<apex:component access="global">
+    <apex:attribute name="objectMetadata" type="CEPFPSEmailBranding__mdt" description="Custom meatadata Object"/>
+    <apex:attribute name="portalFooterImageId" type="ID" description="Image for the Footer"/>
+    <apex:attribute name="organizationId" type="ID" description="ID of Organization"/>
+    <apex:attribute name="portalBaseUrl" type="String" description="URL of the Portal"/>
+<footer>
+    <table class="omv_font"  style="width:100%; border-collapse: collapse; align-items: center;">
+        <tr style=" padding-left:20px;  width: 100%; height: 45px; background: {!objectMetadata.BrandingPrimaryColor__c}; margin-right:5px" class="omv_font">
+            <td style="font-size: 16;  color: {!objectMetadata.ButtonsTextColor__c}; padding-left: 20px;" class="omv_font">
+                <a style=" font-size:16; color: #ffffff; text-decoration: none; margin-right:5%" href="https://{!objectMetadata.FooterURL__c }">{!objectMetadata.FooterURL__c }</a>
+            </td>
+        </tr>
+    </table>
+    <table class="omv_font_special" style=" width: 100%; border-collapse: collapse; align-items: center;color:{!objectMetadata.BrandingPrimaryColor__c};">
+        <tr class="omv_font_special">
+            <td class="omv_font_special" style="color:{!objectMetadata.BrandingPrimaryColor__c};font-weight: bold; width: 50%; padding-left: 20px; padding-top: 0px; padding-bottom: 10px; font-size: 11px;">
+                © {!year(today())} {!objectMetadata.CopyrightText__c}<br/>
+                Tel.:&nbsp;{!objectMetadata.TelephoneContact__c }<br/>
+                <a href="https://{!objectMetadata.ImprintURL__c}" style="color: {!objectMetadata.BrandingPrimaryColor__c};">
+                    <strong style="color: {!objectMetadata.BrandingPrimaryColor__c};">{!objectMetadata.ImprintText__c}</strong>
+                </a><br/>
+            </td>    
+            <td style="width:50%; text-align:right; vertical-align: top; height: 50px;">
+                <apex:image id="logo" url="{!portalBaseUrl}/servlet/servlet.ImageServer?id={!portalFooterImageId}&oid={!organizationId}" width="{!objectMetadata.LogoWidth__c}" height="{!objectMetadata.LogoHeight__c}"  alt="logo" style=" margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;" />
+            </td>
+        </tr>
+    </table>
+</footer>
+</apex:component>

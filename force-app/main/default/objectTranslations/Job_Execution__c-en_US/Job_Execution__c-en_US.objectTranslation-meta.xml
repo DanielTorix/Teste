@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Execution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Executions</value>
+    </caseValues>
+    <layouts>
+        <layout>Job Execution Defined Layout</layout>
+        <sections>
+            <label></label>
+            <section>Batch Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Execution Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Job Execution Initial Layout</layout>
+        <sections>
+            <label></label>
+            <section>Batch Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Cancel</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Execute_Job</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Schedule_Job</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Defined</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Initial</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

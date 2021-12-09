@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MandatoryQuoteType__c</fullName>
+    <description>Identification of Quote types where the product should be inserted automatically by the system</description>
+    <externalId>false</externalId>
+    <label>Mandatory Quote Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>QuoteTypes</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

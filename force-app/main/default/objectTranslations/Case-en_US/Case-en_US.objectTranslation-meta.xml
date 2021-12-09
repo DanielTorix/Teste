@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Case Feed Layout</layout>
+        <layoutType>CaseInteraction</layoutType>
+        <sections>
+            <label></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Categorization</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Requester</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Compensation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label></label>
+            <section>Case Categorization</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Requester</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Claim/Complaint Layout</layout>
+        <sections>
+            <label></label>
+            <section>Case Categorization</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Case Requester</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Compensation</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>CaseFlowUpdate</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CloneCustom</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CloneCustomClaim</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CloneCustomComplaint</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Create_Case_from_Email</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CustomerNotification</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Reopen</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Claim</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Complaint</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BadValuesCategorizationCase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BadValuesCategorizationClaim</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BadValuesCategorizationComplaint</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CantEditCaseWhenClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CantEditClaimWhenClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CantEditComplaintWhenClosed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CantMoveFromAssignedWithoutTheSource</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Case_Filled_Category</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Romania</label>
+    <protected>false</protected>
+    <values>
+        <field>BrandingPrimaryColor__c</field>
+        <value xsi:type="xsd:string">#003366</value>
+    </values>
+    <values>
+        <field>ButtonsColor__c</field>
+        <value xsi:type="xsd:string">#FFEB00</value>
+    </values>
+    <values>
+        <field>ButtonsTextColor__c</field>
+        <value xsi:type="xsd:string">#003366</value>
+    </values>
+    <values>
+        <field>CopyrightText__c</field>
+        <value xsi:type="xsd:string">OMV PETROM Marketing SRL</value>
+    </values>
+    <values>
+        <field>CountryIsoCode__c</field>
+        <value xsi:type="xsd:string">RO</value>
+    </values>
+    <values>
+        <field>DownloadInvoiceButtonText__c</field>
+        <value xsi:type="xsd:string">Descărcați factura</value>
+    </values>
+    <values>
+        <field>EnergyFlashColor__c</field>
+        <value xsi:type="xsd:string">#FFEB00</value>
+    </values>
+    <values>
+        <field>FontFamily__c</field>
+        <value xsi:type="xsd:string">Arial Bold - Left aligned</value>
+    </values>
+    <values>
+        <field>FontSize__c</field>
+        <value xsi:type="xsd:string">15px</value>
+    </values>
+    <values>
+        <field>FooterLogoImage__c</field>
+        <value xsi:type="xsd:string">OMVPetromnoclaim_jfif</value>
+    </values>
+    <values>
+        <field>FooterURL__c</field>
+        <value xsi:type="xsd:string">petrom.ro</value>
+    </values>
+    <values>
+        <field>HeaderLogoImage__c</field>
+        <value xsi:type="xsd:string">OMVPetromnoclaim_jfif</value>
+    </values>
+    <values>
+        <field>HeaderText__c</field>
+        <value xsi:type="xsd:string">Portal comunicare clienti OMV Petrom</value>
+    </values>
+    <values>
+        <field>ImprintText__c</field>
+        <value xsi:type="xsd:string">Imprint</value>
+    </values>
+    <values>
+        <field>ImprintURL__c</field>
+        <value xsi:type="xsd:string">www.petrom.ro/ro-ro/imprint</value>
+    </values>
+    <values>
+        <field>InvoiceRemainderText__c</field>
+        <value xsi:type="xsd:string">Dragă client,
+&lt;br&gt;
+O nouă factură a fost emisă in data de {0}. Te rugăm sa descarci factura din portalul nostru pentru clienți.
+&lt;br&gt; &lt;br&gt;
+Acesta este un e-mail generat automat. În cazul în care aveți întrebări, vă rugăm să luați legătura cu departamentul nostru de servicii pentru clienți.
+&lt;br&gt; &lt;br&gt;
+Cu stimă,
+&lt;br&gt;
+Echipa OMV Petrom</value>
+    </values>
+    <values>
+        <field>LogoHeight__c</field>
+        <value xsi:type="xsd:string">80</value>
+    </values>
+    <values>
+        <field>LogoWidth__c</field>
+        <value xsi:type="xsd:string">170</value>
+    </values>
+    <values>
+        <field>NewInvoiceEmailText__c</field>
+        <value xsi:type="xsd:string">Dragă client,
+&lt;br&gt;
+O nouă factură a fost emisă in data de {0}. Te rugăm sa descarci factura din portalul nostru pentru clienți.
+&lt;br&gt; &lt;br&gt;
+Acesta este un e-mail generat automat. În cazul în care aveți întrebări, vă rugăm să luați legătura cu departamentul nostru de servicii pentru clienți.
+&lt;br&gt; &lt;br&gt;
+Cu stimă,
+&lt;br&gt;
+Echipa OMV Petrom</value>
+    </values>
+    <values>
+        <field>TelephoneContact__c</field>
+        <value xsi:type="xsd:string">0800 0800 11</value>
+    </values>
+</CustomMetadata>

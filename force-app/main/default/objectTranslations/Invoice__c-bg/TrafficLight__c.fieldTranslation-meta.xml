@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Зелено: Фактура с предстоящ падеж Жълто: Фактура с падеж до два дни Червено: Просрочена фактура</help>
+    <label>Индикатор за дата на падеж</label>
+    <name>TrafficLight__c</name>
+</CustomFieldTranslation>

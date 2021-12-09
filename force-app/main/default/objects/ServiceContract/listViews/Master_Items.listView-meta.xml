@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Master_Items</fullName>
+    <columns>CONTRACT.NAME</columns>
+    <columns>CM_Master_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Penalty_Amount__c</columns>
+    <columns>Penalty_Interval__c</columns>
+    <columns>CONTRACT.STARTDATE</columns>
+    <columns>CONTRACT.ENDDATE</columns>
+    <columns>Storage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTRACT.PARENTSERVICECONTRACT</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CM_Master_Number__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Master Items</label>
+</ListView>

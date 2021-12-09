@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Quote Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credit Limit information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>OMV Contact information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pricing Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout With Approval</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Credit Limit information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>OMV Contact information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Pricing Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Approve</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CloneQuote</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Reject</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SubmitForApproval</name>
+    </quickActions>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>CEP_CARDS_QUOTES</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>CEP_CARDS_QUOTE_WITH_APPROVAL</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CannotChangeFurtherStatusWithoutApproval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>EMobilityAndQuoteTypeVerification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PreventChangeInfoOnQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>PreventUserFromChangingQuote</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>TotalPotentialFuelVolume</name>
+    </validationRules>
+</CustomObjectTranslation>

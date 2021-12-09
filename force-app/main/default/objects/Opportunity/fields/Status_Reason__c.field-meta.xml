@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason__c</fullName>
+    <description>Reason For the Stage Closer Won or Close Lost</description>
+    <externalId>false</externalId>
+    <label>Status Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fuel price</fullName>
+                <default>false</default>
+                <label>Fuel price</label>
+            </value>
+            <value>
+                <fullName>VAS discount</fullName>
+                <default>false</default>
+                <label>VAS discount</label>
+            </value>
+            <value>
+                <fullName>Payment term</fullName>
+                <default>false</default>
+                <label>Payment term</label>
+            </value>
+            <value>
+                <fullName>Credit</fullName>
+                <default>false</default>
+                <label>Credit</label>
+            </value>
+            <value>
+                <fullName>Network</fullName>
+                <default>false</default>
+                <label>Network</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other + specify details mandatory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other + specify details mandatory</label>
+            </value>
+            <value>
+                <fullName>Services + specify details mandatory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Services + specify details mandatory</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Fuel price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>VAS discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Payment term</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

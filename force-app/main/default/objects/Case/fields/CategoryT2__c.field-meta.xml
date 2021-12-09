@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CategoryT2__c</fullName>
+    <description>Field to define the T2 Category of the Case</description>
+    <externalId>false</externalId>
+    <label>Category T2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CategoryT1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Card support</fullName>
+                <default>false</default>
+                <label>Card support</label>
+            </value>
+            <value>
+                <fullName>Card operation</fullName>
+                <default>false</default>
+                <label>Card operation</label>
+            </value>
+            <value>
+                <fullName>Credit management support</fullName>
+                <default>false</default>
+                <label>Credit management support</label>
+            </value>
+            <value>
+                <fullName>Credit management operation</fullName>
+                <default>false</default>
+                <label>Credit management operation</label>
+            </value>
+            <value>
+                <fullName>Invoicing support</fullName>
+                <default>false</default>
+                <label>Invoicing support</label>
+            </value>
+            <value>
+                <fullName>Invoicing operation</fullName>
+                <default>false</default>
+                <label>Invoicing operation</label>
+            </value>
+            <value>
+                <fullName>Customer data and Conditions (New customer)</fullName>
+                <default>false</default>
+                <label>Customer data and Conditions (New customer)</label>
+            </value>
+            <value>
+                <fullName>Master-data operation (Existing customer)</fullName>
+                <default>false</default>
+                <label>Master-data operation (Existing customer)</label>
+            </value>
+            <value>
+                <fullName>DocuSign</fullName>
+                <default>false</default>
+                <label>DocuSign</label>
+            </value>
+            <value>
+                <fullName>Systems operation</fullName>
+                <default>false</default>
+                <label>Systems operation</label>
+            </value>
+            <value>
+                <fullName>Voucher general support</fullName>
+                <default>false</default>
+                <label>Voucher general support</label>
+            </value>
+            <value>
+                <fullName>Voucher order support</fullName>
+                <default>false</default>
+                <label>Voucher order support</label>
+            </value>
+            <value>
+                <fullName>Voucher order creation</fullName>
+                <default>false</default>
+                <label>Voucher order creation</label>
+            </value>
+            <value>
+                <fullName>Voucher general operation</fullName>
+                <default>false</default>
+                <label>Voucher general operation</label>
+            </value>
+            <value>
+                <fullName>Toll support</fullName>
+                <default>false</default>
+                <label>Toll support</label>
+            </value>
+            <value>
+                <fullName>Toll operation</fullName>
+                <default>false</default>
+                <label>Toll operation</label>
+            </value>
+            <value>
+                <fullName>VAT refund</fullName>
+                <default>false</default>
+                <label>VAT refund</label>
+            </value>
+            <value>
+                <fullName>CO2</fullName>
+                <default>false</default>
+                <label>CO2</label>
+            </value>
+            <value>
+                <fullName>FS details &amp; network</fullName>
+                <default>false</default>
+                <label>FS details &amp; network</label>
+            </value>
+            <value>
+                <fullName>Technical Problems</fullName>
+                <default>false</default>
+                <label>Technical Problems</label>
+            </value>
+            <value>
+                <fullName>Card User Problems</fullName>
+                <default>false</default>
+                <label>Card User Problems</label>
+            </value>
+            <value>
+                <fullName>FS status</fullName>
+                <default>false</default>
+                <label>FS status</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>FS requests</fullName>
+                <default>false</default>
+                <label>FS requests</label>
+            </value>
+            <value>
+                <fullName>FOS support</fullName>
+                <default>false</default>
+                <label>FOS support</label>
+            </value>
+            <value>
+                <fullName>FOS account</fullName>
+                <default>false</default>
+                <label>FOS account</label>
+            </value>
+            <value>
+                <fullName>FOS operation</fullName>
+                <default>false</default>
+                <label>FOS operation</label>
+            </value>
+            <value>
+                <fullName>New Contract (New Customer)</fullName>
+                <default>false</default>
+                <label>New Contract (New Customer)</label>
+            </value>
+            <value>
+                <fullName>Contract Amendment</fullName>
+                <default>false</default>
+                <label>Contract Amendment</label>
+            </value>
+            <value>
+                <fullName>Announcement of Change</fullName>
+                <default>false</default>
+                <label>Announcement of Change</label>
+            </value>
+            <value>
+                <fullName>Request for information</fullName>
+                <default>false</default>
+                <label>Request for information</label>
+            </value>
+            <value>
+                <fullName>Card offer (Routex/Station)</fullName>
+                <default>false</default>
+                <label>Card offer (Routex/Station)</label>
+            </value>
+            <value>
+                <fullName>Authority request</fullName>
+                <default>false</default>
+                <label>Authority request</label>
+            </value>
+            <value>
+                <fullName>Customer behavior</fullName>
+                <default>false</default>
+                <label>Customer behavior</label>
+            </value>
+            <value>
+                <fullName>Contact details</fullName>
+                <default>false</default>
+                <label>Contact details</label>
+            </value>
+            <value>
+                <fullName>Filling station</fullName>
+                <default>false</default>
+                <label>Filling station</label>
+            </value>
+            <value>
+                <fullName>Site promotions</fullName>
+                <default>false</default>
+                <label>Site promotions</label>
+            </value>
+            <value>
+                <fullName>Filling station promotions</fullName>
+                <default>false</default>
+                <label>Filling station promotions</label>
+            </value>
+            <value>
+                <fullName>Services</fullName>
+                <default>false</default>
+                <label>Services</label>
+            </value>
+            <value>
+                <fullName>Products</fullName>
+                <default>false</default>
+                <label>Products</label>
+            </value>
+            <value>
+                <fullName>CEO</fullName>
+                <default>false</default>
+                <label>CEO</label>
+            </value>
+            <value>
+                <fullName>Explo&amp;Prod</fullName>
+                <default>false</default>
+                <label>Explo&amp;Prod</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Gas &amp; Energy</fullName>
+                <default>false</default>
+                <label>Gas &amp; Energy</label>
+            </value>
+            <value>
+                <fullName>OPM</fullName>
+                <default>false</default>
+                <label>OPM</label>
+            </value>
+            <value>
+                <fullName>Refining &amp; Mkt</fullName>
+                <default>false</default>
+                <label>Refining &amp; Mkt</label>
+            </value>
+            <value>
+                <fullName>CREM</fullName>
+                <default>false</default>
+                <label>CREM</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Card acceptance issues</fullName>
+                <default>false</default>
+                <label>Card acceptance issues</label>
+            </value>
+            <value>
+                <fullName>Delivery Card/PIN issues</fullName>
+                <default>false</default>
+                <label>Delivery Card/PIN issues</label>
+            </value>
+            <value>
+                <fullName>Fuel quality</fullName>
+                <default>false</default>
+                <label>Fuel quality</label>
+            </value>
+            <value>
+                <fullName>Invoice problems</fullName>
+                <default>false</default>
+                <label>Invoice problems</label>
+            </value>
+            <value>
+                <fullName>Voucher business</fullName>
+                <default>false</default>
+                <label>Voucher business</label>
+            </value>
+            <value>
+                <fullName>Transactions</fullName>
+                <default>false</default>
+                <label>Transactions</label>
+            </value>
+            <value>
+                <fullName>Fines</fullName>
+                <default>false</default>
+                <label>Fines</label>
+            </value>
+            <value>
+                <fullName>OBUs issues</fullName>
+                <default>false</default>
+                <label>OBUs issues</label>
+            </value>
+            <value>
+                <fullName>Issues</fullName>
+                <default>false</default>
+                <label>Issues</label>
+            </value>
+            <value>
+                <fullName>Service Quality</fullName>
+                <default>false</default>
+                <label>Service Quality</label>
+            </value>
+            <value>
+                <fullName>Case Category 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Case Category 2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Contracting process</controllingFieldValue>
+            <valueName>New Contract (New Customer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contracting process</controllingFieldValue>
+            <valueName>Contract Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contracting process</controllingFieldValue>
+            <valueName>Announcement of Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for offer</controllingFieldValue>
+            <valueName>Request for information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for offer</controllingFieldValue>
+            <valueName>Card offer (Routex/Station)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Authority request</controllingFieldValue>
+            <valueName>Authority request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Customer behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Contact details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Filling station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Site promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Filling station promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>CEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>Explo&amp;Prod</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>Gas &amp; Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>OPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>Refining &amp; Mkt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>CREM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Petrom CC (RO)</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fuel quality</controllingFieldValue>
+            <valueName>Fuel quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice</controllingFieldValue>
+            <valueName>Invoice problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior</controllingFieldValue>
+            <valueName>Service Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card</controllingFieldValue>
+            <valueName>Card support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card</controllingFieldValue>
+            <valueName>Card operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card</controllingFieldValue>
+            <valueName>Card acceptance issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card</controllingFieldValue>
+            <valueName>Delivery Card/PIN issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit Management</controllingFieldValue>
+            <valueName>Credit management support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit Management</controllingFieldValue>
+            <valueName>Credit management operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer invoicing</controllingFieldValue>
+            <valueName>Invoicing support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer invoicing</controllingFieldValue>
+            <valueName>Invoicing operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Customer data and Conditions (New customer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Master-data operation (Existing customer)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>DocuSign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Systems operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vouchers</controllingFieldValue>
+            <valueName>Voucher general support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vouchers</controllingFieldValue>
+            <valueName>Voucher order support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vouchers</controllingFieldValue>
+            <valueName>Voucher order creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vouchers</controllingFieldValue>
+            <valueName>Voucher general operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vouchers</controllingFieldValue>
+            <valueName>Voucher business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>Toll support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>Toll operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>VAT refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>CO2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>Transactions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>Fines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAS</controllingFieldValue>
+            <valueName>OBUs issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS acceptance support</controllingFieldValue>
+            <valueName>FS details &amp; network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS acceptance support</controllingFieldValue>
+            <valueName>Technical Problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS acceptance support</controllingFieldValue>
+            <valueName>Card User Problems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS operation</controllingFieldValue>
+            <valueName>FS status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS operation</controllingFieldValue>
+            <valueName>Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS operation</controllingFieldValue>
+            <valueName>FS requests</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet Online</controllingFieldValue>
+            <valueName>FOS support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet Online</controllingFieldValue>
+            <valueName>FOS account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet Online</controllingFieldValue>
+            <valueName>FOS operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet Online</controllingFieldValue>
+            <valueName>Issues</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

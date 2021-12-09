@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DunningLetterDownloadLink__c</fullName>
+    <description>URL to have access to the latest Dunning Letter PDF, updated by SAP</description>
+    <externalId>false</externalId>
+    <label>Download Dunning Letter</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email</fullName>
+    <description>E-mail of contact for who the quote is being prepared - Decision Maker identified in the opportunity</description>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

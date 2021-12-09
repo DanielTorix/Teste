@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status</fullName>
+    <description>Shows whether the quote is in draft, in review, submitted, approved, rejected, presented, accepted, denied. Accepted and denied quotes are read-only and can&apos;t be edited.
+If the quote doen&apos;t requires business approval then Submitted, Approved and Rejected status will nos be available in that Quote.</description>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+</CustomField>

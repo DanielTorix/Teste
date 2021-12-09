@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BadValuesCategorizationComplaint</fullName>
+    <active>true</active>
+    <description>give error when changing record type and bad category values for it</description>
+    <errorConditionFormula>AND(
+				NOT($Setup.CEPSkipValidationRules__c.Case__c),
+				ISCHANGED(RecordTypeId),
+				RecordType.DeveloperName = &apos;Complaint&apos;,
+				OR(
+									(
+													 NOT(ISBLANK(TEXT(CategoryT1__c))) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Card&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Vouchers&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;VAS&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Fleet Online&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Spam&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Fuel quality&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Invoice&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT1__c, &apos;Behavior&apos;))
+									),
+									(
+													 NOT(ISBLANK(TEXT(CategoryT2__c))) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT2__c, &apos;Card acceptance issues&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Delivery Card/PIN issues&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT2__c, &apos;Fuel quality&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Invoice problems&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Voucher business&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Transactions&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Fines&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;OBUs issues&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT2__c, &apos;Issues&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT2__c, &apos;Service Quality&apos;))
+									),
+									(
+													 NOT(ISBLANK(TEXT(CategoryT3__c))) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Voucher order&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Filling station&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Card acceptance issues&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Card / PIN not received&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Fuel quality&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Transactions issue&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Wrong or missing data&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Voucher usage&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Voucher delivery&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Voucher other&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Not recognized TRX&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Vignette&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Fines&apos;)) &amp;&amp;
+										    NOT(ISPICKVAL(CategoryT3__c, &apos;Blocked device&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Bloced account&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Device not working&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Other card complaint&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Invoice not received&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Other invoice complaint&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Other OBUs complaint&apos;)) &amp;&amp;
+									    	NOT(ISPICKVAL(CategoryT3__c, &apos;Not working&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;CSO Agent&apos;)) &amp;&amp;
+								    		NOT(ISPICKVAL(CategoryT3__c, &apos;Sales or Other&apos;))
+									)
+				)
+)</errorConditionFormula>
+    <errorMessage>The category values you selected are not valid for the type of case you are trying to convert</errorMessage>
+</ValidationRule>

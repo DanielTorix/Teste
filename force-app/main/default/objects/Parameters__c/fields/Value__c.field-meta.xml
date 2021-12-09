@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value__c</fullName>
+    <description>Defines the value of the parameter, can be a set of Ids, a status value, a constant etc</description>
+    <externalId>false</externalId>
+    <label>Value</label>
+    <length>32768</length>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

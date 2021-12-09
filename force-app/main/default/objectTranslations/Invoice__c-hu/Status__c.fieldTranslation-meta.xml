@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Állapot</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Cleared</masterLabel>
+        <translation>Kiegyenlítve</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>Teljesítve</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice in progress</masterLabel>
+        <translation>Folyamatban lévő számla</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New invoice</masterLabel>
+        <translation>Új számla</translation>
+    </picklistValues>
+</CustomFieldTranslation>

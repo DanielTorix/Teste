@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CantEditCaseWhenClosed</fullName>
+    <active>true</active>
+    <description>Block edit on cases that are closed.</description>
+    <errorConditionFormula>NOT($Setup.CEPSkipValidationRules__c.Case__c) &amp;&amp;
+RecordType.DeveloperName = &apos;Case&apos; &amp;&amp;
+IsClosed = TRUE &amp;&amp; 
+ReopenedInFlow__c = FALSE</errorConditionFormula>
+    <errorMessage>The case you are trying to edit has been already closed. If you need to make some modification, you have to reopen the case.</errorMessage>
+</ValidationRule>

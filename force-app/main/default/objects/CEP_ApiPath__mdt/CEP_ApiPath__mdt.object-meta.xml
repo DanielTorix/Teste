@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A Path is a grouping of several Methods that share a common base path in the endpoint URL.</description>
+    <label>CEP API Path</label>
+    <pluralLabel>CEP API Paths</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

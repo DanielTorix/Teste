@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FuelVolumeBand__c</fullName>
+    <description>Defined based on the Total Potential Fuel Volume value</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Filled based on Total Potential Fuel Volume</inlineHelpText>
+    <label>Fuel Volume Band</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>QuoteType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>V10</fullName>
+                <default>false</default>
+                <label>V10</label>
+            </value>
+            <value>
+                <fullName>V30</fullName>
+                <default>false</default>
+                <label>V30</label>
+            </value>
+            <value>
+                <fullName>V60</fullName>
+                <default>false</default>
+                <label>V60</label>
+            </value>
+            <value>
+                <fullName>V100</fullName>
+                <default>false</default>
+                <label>V100</label>
+            </value>
+            <value>
+                <fullName>V150</fullName>
+                <default>false</default>
+                <label>V150</label>
+            </value>
+            <value>
+                <fullName>V250</fullName>
+                <default>false</default>
+                <label>V250</label>
+            </value>
+            <value>
+                <fullName>V500</fullName>
+                <default>false</default>
+                <label>V500</label>
+            </value>
+            <value>
+                <fullName>V750</fullName>
+                <default>false</default>
+                <label>V750</label>
+            </value>
+            <value>
+                <fullName>V1000</fullName>
+                <default>false</default>
+                <label>V1000</label>
+            </value>
+            <value>
+                <fullName>VM</fullName>
+                <default>false</default>
+                <label>VM</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V150</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V750</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>V1000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <valueName>VM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fleet PP</controllingFieldValue>
+            <controllingFieldValue>Fleet LP</controllingFieldValue>
+            <controllingFieldValue>Int CRT LP</controllingFieldValue>
+            <controllingFieldValue>Nat CRT LP</controllingFieldValue>
+            <controllingFieldValue>Int Agents LP</controllingFieldValue>
+            <controllingFieldValue>E-Mobility</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

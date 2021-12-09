@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CEP Subscription Key</label>
+    <protected>false</protected>
+    <values>
+        <field>ApiMethod__c</field>
+        <value xsi:type="xsd:string">CepIfcsCustomerOnboard</value>
+    </values>
+    <values>
+        <field>HeaderName__c</field>
+        <value xsi:type="xsd:string">Ocp-Apim-Subscription-Key</value>
+    </values>
+    <values>
+        <field>HeaderValue__c</field>
+        <value xsi:type="xsd:string">d625f92354664f7698585bb87a6f9f48</value>
+    </values>
+</CustomMetadata>

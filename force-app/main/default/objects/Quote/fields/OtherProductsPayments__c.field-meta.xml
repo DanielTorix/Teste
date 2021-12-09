@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OtherProductsPayments__c</fullName>
+    <description>Other Products payments (e.g. LNG / Hydrogen/ E-Moblity Turnover)</description>
+    <externalId>false</externalId>
+    <label>Other Products Payments</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Currency</type>
+</CustomField>

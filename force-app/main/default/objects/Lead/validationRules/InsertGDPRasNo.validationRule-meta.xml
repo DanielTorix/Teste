@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InsertGDPRasNo</fullName>
+    <active>true</active>
+    <description>Can&apos;t create new leads with GDPR as No value</description>
+    <errorConditionFormula>NOT($Setup.CEPSkipValidationRules__c.Lead__c) &amp;&amp; 
+ISNEW() &amp;&amp; 
+ISPICKVAL(GeneralGDPR__c, &apos;No&apos;)</errorConditionFormula>
+    <errorMessage>You can&apos;t create a Lead with General GDPR = No, please review this field</errorMessage>
+</ValidationRule>

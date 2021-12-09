@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VASCompetitivePackage__c</fullName>
+    <description>Competitive package chosen by the agent.</description>
+    <externalId>false</externalId>
+    <label>VAS Package</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VAS Base</fullName>
+                <default>false</default>
+                <label>VAS Base</label>
+            </value>
+            <value>
+                <fullName>VAS1</fullName>
+                <default>false</default>
+                <label>VAS1</label>
+            </value>
+            <value>
+                <fullName>VAS2</fullName>
+                <default>false</default>
+                <label>VAS2</label>
+            </value>
+            <value>
+                <fullName>VAS3</fullName>
+                <default>false</default>
+                <label>VAS3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

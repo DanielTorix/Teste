@@ -1,0 +1,58 @@
+<aura:documentation>
+	<aura:description>
+		<p>This is a generic and reusable Lightning component that calls server-side actions.
+		This is a service component so it has no user interface of it's own: it is meant to be called by other components.</p>
+
+		<p>Use the service by adding the component to a parent component's markup:</p>
+
+		<pre>&lt;c:ServerActionService aura:id="server"/&gt;</pre>
+
+<p>Then, simply call a server-side action from the parent's component controller like this:</p>
+
+<pre>
+// Get server action service
+const server = component.find('server');
+// Get server-side action
+const action = component.get('c.anAction');
+// Call server-side action with no parameters
+server.callServer(action);
+</pre>
+
+<p>Server-side actions can be called with parameters, custom callbacks and other options:</p>
+
+<pre>
+server.callServer(
+    action, // Server-side action
+    parameters, // Action parameters
+    false, // Disable cache
+    $A.getCallback(function(response) { // Custom success callback
+        // Handle response
+    }),
+    $A.getCallback(function(errors) { // Custom error callback
+        // Handle errors
+    }),
+    false, // Disable built-in error notification
+    false, // Disable background
+    false // Not abortable
+);
+</pre>
+
+<p>Alternatively, Server-side actions can be called as a JS promise (Not supported in IE11):</p>
+<pre>
+server.callServerPromise(
+    action, // Server-side action
+    parameters, // Action parameters
+    false, // Disable cache
+    false, // Disable built-in error notification
+    false, // Disable background
+    false // Not abortable
+).then($A.getCallback(response => {
+    // Handle response
+}))
+.catch($A.getCallback(errors => {
+    // Handle errors
+}));
+</pre>
+
+	</aura:description>
+</aura:documentation>

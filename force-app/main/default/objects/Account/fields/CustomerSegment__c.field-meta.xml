@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerSegment__c</fullName>
+    <description>Segment of the customer according to cards business</description>
+    <externalId>false</externalId>
+    <label>Customer Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>International CRT</fullName>
+                <default>false</default>
+                <label>International CRT</label>
+            </value>
+            <value>
+                <fullName>National CRT</fullName>
+                <default>false</default>
+                <label>National CRT</label>
+            </value>
+            <value>
+                <fullName>National Fleet</fullName>
+                <default>false</default>
+                <label>National Fleet</label>
+            </value>
+            <value>
+                <fullName>Neighborhood Fleet</fullName>
+                <default>false</default>
+                <label>Neighborhood Fleet</label>
+            </value>
+            <value>
+                <fullName>Leasing/Reseller</fullName>
+                <default>false</default>
+                <label>Leasing/Reseller</label>
+            </value>
+            <value>
+                <fullName>Special Fleet</fullName>
+                <default>false</default>
+                <label>Special Fleet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

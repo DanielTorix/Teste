@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeOInvoice__c</fullName>
+    <description>Type of Invoice, updated by SAP</description>
+    <externalId>false</externalId>
+    <label>Type of Invoice</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZD</fullName>
+                <default>false</default>
+                <label>Invoice debit</label>
+            </value>
+            <value>
+                <fullName>ZCD</fullName>
+                <default>false</default>
+                <label>Cancel invoice debit</label>
+            </value>
+            <value>
+                <fullName>ZC</fullName>
+                <default>false</default>
+                <label>Return invoice</label>
+            </value>
+            <value>
+                <fullName>ZMC</fullName>
+                <default>false</default>
+                <label>Credit memo invoice</label>
+            </value>
+            <value>
+                <fullName>ZMD</fullName>
+                <default>false</default>
+                <label>Debit memo invoice - ZMD</label>
+            </value>
+            <value>
+                <fullName>ZMD1</fullName>
+                <default>false</default>
+                <label>Debit memo invoice - ZMD1</label>
+            </value>
+            <value>
+                <fullName>ZMD2</fullName>
+                <default>false</default>
+                <label>Debit memo invoice - ZMD2</label>
+            </value>
+            <value>
+                <fullName>ZS12</fullName>
+                <default>false</default>
+                <label>Bonus invoice - ZS12</label>
+            </value>
+            <value>
+                <fullName>ZS92</fullName>
+                <default>false</default>
+                <label>Bonus invoice - ZS92</label>
+            </value>
+            <value>
+                <fullName>ZS13</fullName>
+                <default>false</default>
+                <label>Commission invoice - ZS13</label>
+            </value>
+            <value>
+                <fullName>ZS93</fullName>
+                <default>false</default>
+                <label>Commission invoice - ZS93</label>
+            </value>
+            <value>
+                <fullName>ZFAZ</fullName>
+                <default>false</default>
+                <label>Prepayment invoice</label>
+            </value>
+            <value>
+                <fullName>FAS</fullName>
+                <default>false</default>
+                <label>Cancel prepayment invoice</label>
+            </value>
+            <value>
+                <fullName>ZD96</fullName>
+                <default>false</default>
+                <label>Debit note CO2</label>
+            </value>
+            <value>
+                <fullName>DH</fullName>
+                <default>false</default>
+                <label>Advance payment</label>
+            </value>
+            <value>
+                <fullName>DA</fullName>
+                <default>false</default>
+                <label>Late Interests - DA</label>
+            </value>
+            <value>
+                <fullName>DF</fullName>
+                <default>false</default>
+                <label>Late Interests - DF</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

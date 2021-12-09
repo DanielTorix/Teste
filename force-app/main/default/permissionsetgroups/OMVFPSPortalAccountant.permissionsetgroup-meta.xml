@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set Group with the permissions for the Accountant User of the Portal</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OMV FPS Portal Accountant</label>
+    <permissionSets>ExportReports</permissionSets>
+    <permissionSets>InvoiceRU</permissionSets>
+    <permissionSets>RunReports</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

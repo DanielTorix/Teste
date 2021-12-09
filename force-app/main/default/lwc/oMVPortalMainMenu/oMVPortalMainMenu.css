@@ -1,0 +1,50 @@
+.omv_font {
+    font-family:  Arial Bold - Left aligned;
+}
+.omv_font_special {
+    font-family:  Arial Narrow - align left;
+}
+
+
+.omv_button {
+    background-color: #003366;  
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 38px;
+}
+
+.omv_bg_blue {
+    background-color:#003366;
+}
+
+.omv_bg_green {
+    background-color: #33CC00;
+    
+}
+
+.omv_fg_blue {
+    color: #003366;
+}
+
+.omv_fg_green {
+    color: #003366;
+}
+.logo {
+        
+    width: 97px !important;
+    height:95px !important; 
+    float: center !important;
+    margin-left: 75% !important;
+}  
+.omv_svg_resize {
+    transform: scale(0.60);
+    -ms-transform: scale(0.60);
+    -webkit-transform: scale(0.60);
+}

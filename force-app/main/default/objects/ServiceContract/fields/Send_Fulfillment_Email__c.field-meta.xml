@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Fulfillment_Email__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND( Is_current_month__c , DAY(TODAY()) &gt;= 15,Current_Fulfilment__c &lt; 51, ParentServiceContract.Account.ExternalId__c = &apos;123418&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Send Fulfillment Email</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

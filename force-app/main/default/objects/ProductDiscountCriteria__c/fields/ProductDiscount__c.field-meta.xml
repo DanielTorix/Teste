@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductDiscount__c</fullName>
+    <description>Discount to apply this criteria</description>
+    <externalId>false</externalId>
+    <label>Product Discount</label>
+    <referenceTo>ProductDiscount__c</referenceTo>
+    <relationshipLabel>Products Discount Criteria</relationshipLabel>
+    <relationshipName>ProductsDiscountCriteria</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

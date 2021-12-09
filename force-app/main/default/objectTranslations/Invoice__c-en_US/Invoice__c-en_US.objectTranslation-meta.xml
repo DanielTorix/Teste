@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Download Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dunning Letter</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Invoice Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>DownloadInvoice</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

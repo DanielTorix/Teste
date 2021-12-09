@@ -1,0 +1,160 @@
+{
+  "appPageId" : "9e5c3868-9482-43ba-a489-36c0dc424a67",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "id" : "75e2515a-b41e-42c9-9a88-8c11eb77251e",
+  "label" : "index",
+  "regions" : [ {
+    "id" : "02edce5c-e055-4935-ab66-0b079ba01d17",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImage" : "CEPFPSNews3",
+        "backgroundStyle" : "position: relative; background-color: black; background-size: 100% 100%;",
+        "button" : "",
+        "buttonDivStyle" : "text-align: center; padding-top: 25px;",
+        "buttonStyle" : "display:none",
+        "buttonURL" : "",
+        "content" : "",
+        "contentStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 18px; color: white;",
+        "header" : "View your Contracts",
+        "headerStyle" : "width:100%; position: absolute; top:75%; bottom: -1%; left: 0; padding:0px; background: rgba(0, 51, 102, 0.9); padding-top:2%; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 24px; font-weight: regular; color: white; margin-top:3%;",
+        "height" : "250px",
+        "width" : "100%"
+      },
+      "componentName" : "c:communityImageCard",
+      "id" : "f7efa050-0fbc-425b-9f36-e174e7f73587",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImage" : "CEPFPSNews4",
+        "backgroundStyle" : "position: relative; background-color: black; background-size: 100% 100%;",
+        "button" : "",
+        "buttonDivStyle" : "text-align: center; padding-top: 25px;",
+        "buttonStyle" : "display:none",
+        "buttonURL" : "",
+        "content" : "",
+        "contentStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 18px; color: white;",
+        "header" : "Check your Invoices",
+        "headerStyle" : "width:100%; position: absolute; top:75%; bottom: -1%; left: 0; padding:0px; background: rgba(0, 51, 102, 0.9); padding-top:2%; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 24px; font-weight: regular; color: white; margin-top:3%;",
+        "height" : "250px",
+        "width" : "100%"
+      },
+      "componentName" : "c:communityImageCard",
+      "id" : "c20f6223-87c9-4cf3-afd6-ca3755767d13",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bdce0016-16fa-40ce-b48c-d564b069b31b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImage" : "CEPFPSNews5",
+        "backgroundStyle" : "position: relative; background-color: black; background-size: 100% 100%;",
+        "button" : "",
+        "buttonDivStyle" : "text-align: center; padding-top: 25px;",
+        "buttonStyle" : "display:none",
+        "buttonURL" : "https://www.lipsum.com",
+        "content" : "",
+        "contentStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 18px; color: white;",
+        "header" : "Place your Orders",
+        "headerStyle" : "width:100%; position: absolute; top:75%; bottom: -1%; left: 0; padding:0px; background: rgba(0, 51, 102, 0.9); padding-top:2%; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 24px; font-weight: regular; color: white; margin-top:3%;",
+        "height" : "250px",
+        "width" : "100%"
+      },
+      "componentName" : "c:communityImageCard",
+      "id" : "7ec0910c-5f88-48eb-ab30-1719aae70737",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImage" : "CEPFPSNews7",
+        "backgroundStyle" : "position: relative; background-color: black; background-size: 100% 100%;",
+        "button" : "",
+        "buttonDivStyle" : "text-align: center; padding-top: 25px;",
+        "buttonStyle" : "display:none",
+        "buttonURL" : "https://www.lipsum.com",
+        "content" : "",
+        "contentStyle" : "padding-top: 25px; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 18px; color: white;",
+        "header" : "Track your Deliveries",
+        "headerStyle" : "width:100%; position: absolute; top:75%; bottom: -1%; left: 0; padding:0px; background: rgba(0, 51, 102, 0.9); padding-top:2%; text-align: center; font-family: \"Sans Pro\", Helvetica, Sans-Serif; font-size: 24px; font-weight: regular; color: white; margin-top:3%;",
+        "height" : "250px",
+        "width" : "100%"
+      },
+      "componentName" : "c:communityImageCard",
+      "id" : "e97b954e-79d6-4a07-b14d-c48a4a2d4138",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "440d578b-ee4e-4729-a80b-6de9081f5284",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"font-family: &quot;Sans Pro&quot;, Helvetica, Sans-Serif; font-weight: bolder; color: #003366;font-size: 24px; margin-top:-5px; margin-bottom:30px;\">Access the OMV Customer Portal</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "65f2b08e-0b1f-44c9-a742-af9013b37580",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"BulletPoint\" style=\"line-height: 4.0; font-family: &quot;Sans Pro&quot;, Helvetica, Sans-Serif; font-weight: regular; color: black; font-size: 20px; margin-top:10px; margin-bottom:50px; margin-left:-45px\">\n    <ul>\n      <li>Full overview of your contracts</li>\n      <li>Place orders anytime and track deliveries</li>\n      <li>See your transactions and invoices</li>\n    </ul>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "d8d11e0f-c3c7-4c0a-9c1d-462678dcbcfd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "button" : "Log in",
+        "buttonDivStyle" : "margin-left:20%; padding-left:20px; padding-right:20px; padding-top:15px; padding-bottom:15px;",
+        "buttonStyle" : "padding-left:95px; padding-right:95px; padding-top:8px; padding-bottom:8px; background-color: #33CC00; border: none; color: white; text-align: center; text-decoration: none; display: inline-block; font-size: 22px; cursor: pointer; border-radius: 30px;",
+        "buttonURL" : "https://cepdev-omv.cs173.force.com/CEPOMVCustomerPortal/s/login/",
+        "height" : "100%",
+        "width" : "100%"
+      },
+      "componentName" : "c:communitybuttonIndex",
+      "id" : "23fec6ed-7ffa-4441-b017-d51d002e732a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "783bc02f-e849-4651-a341-83c9e537ced6",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "7aa14387-d5e0-486d-a945-25fc152cf2a3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "index"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "16b9de9c-4a95-4c8f-8734-d9c3d0aa5988",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "21f6696b-2f8f-4ac9-b46d-14ebc9a79ccc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-index"
+}

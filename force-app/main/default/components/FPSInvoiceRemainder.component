@@ -1,0 +1,45 @@
+<apex:component access="global" controller="VFC_LetterheadController">
+    <apex:attribute name="customer_Country" type="String" description="Country of the customer" assignTo="{!customerCountry}" access="global"/>
+    <apex:attribute name="Name" type="String" description="Name of the customer" access="global"/>
+    <apex:attribute name="Network" type="String" description="Network" access="global"/>
+  <h1>  
+        <head>
+            <c:LetterheadHeader metadataObject="{!customerCountryMetadata}" organizationId="{!organizationId}" portalHeaderImageId="{!portalHeaderImageId}" portalBaseUrl="{!portalBaseUrl}" />
+        </head>
+        <body>
+        <p style="padding-left: 16px;">
+            <apex:outputText escape="false"  value="{!$Label.NewInvoiceText01}"  styleClass="omv_font omv_fg_blue" style="font-size:20px; font-weight: bold;">
+                <apex:param name="{0}" value="{!TODAY() -3}" />
+            </apex:outputText>
+            <div style="font-family: {!customerCountryMetadata.FontFamily__c};font-size: 100%;margin: 0;padding: 0;margin-top: 0">
+            <!--[if mso]>
+                        
+                        <v:rect style="height:40px;width:0;" fill="f" stroke="f" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" />
+        
+                        <v:roundrect style="width:281px;height:55px;position:relative;top:0;left:-4px;" arcsize="50%" stroke="f" fill="true" xmlns:v=&quot;urn:schemas-microsoft-com:vml&quot; xmlns:w=&quot;urn:schemas-microsoft-com:office:word&quot;>
+                            <v:fill type="gradientradial" color="transparent" color2="#696969" focus="0" focusposition=".05,0.23" focussize=".9,0.5" />
+                        </v:roundrect>
+        
+                        <v:roundrect href="{!Network}" style="width:273px;height:40px;position:relative;top:0;left:0;v-text-anchor:middle;" arcsize="50%" stroke="f" fillcolor="{!customerCountryMetadata.EnergyFlashColor__c}" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word">
+                            <w:anchorlock/>
+                            <v:textbox inset="0,0,0,0">
+                            <center>
+                        <![endif]-->
+
+                <a href="{!Network}" style="font-family: {!customerCountryMetadata.FontFamily__c};font-size: 14px;margin: 0;padding: 0 24px;color: {!customerCountryMetadata.ButtonsTextColor__c};margin-top: 0;font-weight: bold;line-height: 40px;letter-spacing: 0.1ch;background-color:{!customerCountryMetadata.EnergyFlashColor__c};border-radius: 5000px;box-shadow: 0 8px 14px 2px #f45c2324, 0 6px 20px 5px #f45c231f, 0 8px 10px -5px #f45c2333;display: inline-block;text-align: center;text-decoration: none;white-space: nowrap;-webkit-text-size-adjust: none">{!customerCountryMetadata.DownloadInvoiceButtonText__c}</a>
+            <!--[if mso]>
+                        </center>
+                            </v:textbox>
+                            </v:roundrect>
+                        <![endif]-->
+
+            </div>
+            <apex:outputText escape="false"  value="{!Network}" styleClass="omv_font" style="font-size:20;"/>
+            <apex:outputText escape="false"  value="{!$Label.NewInvoiceText02}" styleClass="omv_font omv_fg_blue" style="font-size:20px; font-weight: bold;">
+            </apex:outputText>
+        </p>
+        </body>
+        <footer>
+            <c:LetterheadFooter objectMetadata="{!customerCountryMetadata}" portalFooterImageId="{!portalFooterImageId}" organizationId="{!organizationId}" portalBaseUrl="{!portalBaseUrl}"/>
+        </footer></h1>
+</apex:component>

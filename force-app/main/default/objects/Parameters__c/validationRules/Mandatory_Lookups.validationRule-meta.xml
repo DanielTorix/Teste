@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_Lookups</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISBLANK(Batch_Definition__c) &amp;&amp; ISBLANK( Job_Execution__c ))|| (NOT(ISBLANK(Batch_Definition__c)) &amp;&amp; NOT(ISBLANK( Job_Execution__c )))</errorConditionFormula>
+    <errorMessage>Either Batch Definition or Job Execution needs to be filled</errorMessage>
+</ValidationRule>

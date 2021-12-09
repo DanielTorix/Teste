@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CSO Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Romania</fullName>
+        <default>false</default>
+        <label>CSO Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Moldova</fullName>
+        <default>false</default>
+        <label>CSO Moldova</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Bulgaria</fullName>
+        <default>false</default>
+        <label>CSO Bulgaria</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Serbia</fullName>
+        <default>false</default>
+        <label>CSO Serbia</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Card Management Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Card Management Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Customer Support Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Customer Support Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Card Management Romania</fullName>
+        <default>false</default>
+        <label>CSO Card Management Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Customer Support Romania</fullName>
+        <default>false</default>
+        <label>CSO Customer Support Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Bratislava</fullName>
+        <default>false</default>
+        <label>CSO CMT Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Romania</fullName>
+        <default>false</default>
+        <label>CSO CMT Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Manager</fullName>
+        <default>false</default>
+        <label>CSO Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Card Management Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Agent Card Management Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Customer Support Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Agent Customer Support Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Agent Bratislava</fullName>
+        <default>false</default>
+        <label>CSO CMT Agent Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Card Management  Romania</fullName>
+        <default>false</default>
+        <label>CSO Agent Card Management  Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Customer Support Romania</fullName>
+        <default>false</default>
+        <label>CSO Agent Customer Support Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Agent Romania</fullName>
+        <default>false</default>
+        <label>CSO CMT Agent Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Bulgaria</fullName>
+        <default>false</default>
+        <label>CSO Agent Bulgaria</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Serbia</fullName>
+        <default>false</default>
+        <label>CSO Agent Serbia</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Agent Moldova</fullName>
+        <default>false</default>
+        <label>CSO Agent Moldova</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Card Management Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Card Management Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Customer Support Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Customer Support Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Card Management Romania</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Card Management Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Customer Support Romania</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Customer Support Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Bulgaria</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Bulgaria</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Serbia</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Serbia</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Team Lead Moldova</fullName>
+        <default>false</default>
+        <label>CSO Team Lead Moldova</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Team Lead Bratislava</fullName>
+        <default>false</default>
+        <label>CSO CMT Team Lead Bratislava</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO CMT Team Lead Romania</fullName>
+        <default>false</default>
+        <label>CSO CMT Team Lead Romania</label>
+    </customValue>
+    <customValue>
+        <fullName>CSO Senior Agent Bratislava</fullName>
+        <default>false</default>
+        <label>CSO Senior Agent Bratislava</label>
+    </customValue>
+    <masterLabel>Teams</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompanyCodeCountry__c</fullName>
+    <description>field used for sharing rules</description>
+    <externalId>false</externalId>
+    <label>Company Code Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CustomerCountry</valueSetName>
+    </valueSet>
+</CustomField>

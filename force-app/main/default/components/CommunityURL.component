@@ -1,0 +1,4 @@
+<apex:component controller="CommunityURLController" access="global">
+    <apex:attribute name="community" type="String" description="community prefix to use in query" assignTo="{!communityPrefix}"/>
+    <a href="{!CommunityLink}">OMV Downstream Customer Portal</a>
+</apex:component>

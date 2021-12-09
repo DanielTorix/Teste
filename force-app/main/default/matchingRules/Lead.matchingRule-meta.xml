@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatchingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <matchingRules>
+        <fullName>LeadsWithTheSameTraddingMatchingRule</fullName>
+        <description>Matching Rule that checks if the Lead have the exact Trade Registration Number as other Lead</description>
+        <label>Leads with the same Tradding matching rule</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>TradeRegistrationNumber__c</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+    <matchingRules>
+        <fullName>LeadsWithTheSameVATMatchingRule</fullName>
+        <description>Matching Rule that checks if the Lead have the exact VAT Number as other Lead</description>
+        <label>Leads with the same VAT matching rule</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>VAT_Tax_Number__c</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+</MatchingRules>

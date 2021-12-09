@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PriceType__c</fullName>
+    <description>Defined based on the Total Potential Fuel Volume value</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(QuoteType__c, &apos;Fleet PP&apos;) , &apos;Pump Price&apos;, IF(ISPICKVAL(QuoteType__c, &apos;E-Mobility&apos;) , &apos;N/A&apos;, &apos;List Price&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Price Type</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

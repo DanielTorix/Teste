@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Hungary</label>
+    <protected>false</protected>
+    <values>
+        <field>Body_English__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. Purpose of this privacy policy&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The present data protection statement of OMV Hungária Kft. (hereinafter referred to as &quot;OMV&quot;) provides information on the purpose as well as the manner of processing of personal data in connection with the use of the Salesforce.com Plattform.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;2. Purpose and legal basis of the data processing&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data are processed by OMV for the purpose of customer management on the legal basis of contract fulfillment as defined in Art 6 para 1 lit b GDPR.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Which personal data is collected?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV processes the following personal information in the Salesforce.com Plattform that is necessary for the above-mentioned purposes: contact information that makes you identifiable, such as full name, telephone number(s), function, position, company name and address as well as company email address.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Why OMV needs your personal data and how they are used (recipient of the data)&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data will only be viewed by the responsible OMV employees for the purpose of customer management. The possible recipients of your personal data are the external service providers, which offers the Plattform and provide ongoing maintenance and service. The Plattform is maintained by OMV and the data are hosted in European data centers.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. How long is your data stored?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV stores your data for as long as the purpose of the data processing requires it or legal obligations to retain data exist. In principle, the data will be stored as long as the contract is valid, and the user account is active.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;6. Other rights to process your personal data in accordance with GDPR&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Further information on data protection including the rights to which you are entitled on the basis of the GDPR can be also found under www.omv.hu/adatvedelmi-tajekoztato.
+If you have any questions, the data protection officer of OMV can be contacted at privacy.hu@omv.com.&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>Body__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. A jelen adatvédelmi tájékoztató célja&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Az alábbi Adatvédelmi tájékoztatóban az OMV Hungária Kft. (továbbiakban röviden: „OMV“) tájékoztatást nyújt a Salesforce.com Platform használata kapcsán megvalósuló személyes adatok kezeléséről, illetve az adatkezelés céljáról és módjáról.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;2. Az adatkezelés célja és jogalapja&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;A személyes adatokat az OMV az ügyféllel való kapcsolattartás céljából kezeli a GDPR 6. cikk (1) bekezdésének b) pontjában foglalt, szerződés teljesítéséhez szükséges okból.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Milyen személyes adatok kezelésére kerül sor?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Az OMV a fent meghatározott célokból az alábbi szükséges személyes adatokat kezeli a Salesforce.com Platformmal összefüggésben: 
+Kapcsolattartási adatok, amelyek az Ön azonosításához szükségesek, mint például Teljes név, Telefonszám(ok), Tisztség, Pozíció, Cégnév és székhely, illetve céges e-mail cím.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Miért van szüksége az OMV-nek az Ön adataira és hogyan használja azokat? (Adatok címzettje)&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Az Ön személyes adatai kizárólag az OMV illetékes munkavállalói által – ügyféllel való kapcsolattartás céljából – kerülnek kezelésre. Az Ön személyes adatainak lehetséges címzettjei lehetnek továbbá külső szolgáltatók, akik a Platform rendelkezésre állását biztosítják, illetve karbantartását és kezelését végzik. A Platformot az OMV tartja fenn és az adatok európai adatközpontokban kerülnek tárolásra.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. Meddig kerülnek tárolásra az adatok?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Az OMV az adatkezelés céljának teljesüléséig vagy jogszabályban előrt időtartamig őrzi meg az Ön adatait. Alapvetően az adatok addig kerülnek tárolásra, amíg ez a fent meghatározott célokból szükséges, azaz amíg a szerződés fennáll vagy a felhasználó regisztrációja aktív.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;6. Az Önt a GDPR alapján megillető jogok a személyes adatok kezelésével összefüggésben&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Az adatok védelmével kapcsolatos további információk, ideértve az Önt a GDPR alapján megillető jogokat is az alábbi linken érhetőek el: www.omv.hu/adatvedelmi-tajekoztato.&lt;/p&gt;
+&lt;br&gt;
+További kérdés esetén forduljon az OMV adatvédelmi tisztviselőjéhez a privacy.hu@omv.com e-mail címen.&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>CountryIsoCode__c</field>
+        <value xsi:type="xsd:string">HU</value>
+    </values>
+    <values>
+        <field>TimeZone__c</field>
+        <value xsi:type="xsd:string">Europe/Budapest</value>
+    </values>
+    <values>
+        <field>Title_English__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Privacy Policy in accordance with Art. 13 and 14 of the General Data Protection Regulation („GDPR“)&lt;/h1&gt;</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Az általános adatvédelmi rendelet („gdpr“) 13. És 14. Cikke szerinti adatvédelmi tájékoztató &lt;/h1&gt;</value>
+    </values>
+</CustomMetadata>

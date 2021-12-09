@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>define_Other_role</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Not($Setup.CEPSkipValidationRules__c.OpportunityContactRole__c ),
+    OR(AND(ISPICKVAL(Detailed_Role__c,&apos;Other&apos;),
+				ISBLANK( OtherRole__c ) ),
+			AND(!ISPICKVAL(Detailed_Role__c,&apos;Other&apos;),
+				!ISBLANK( OtherRole__c ) 
+            ) 
+    )
+)</errorConditionFormula>
+    <errorDisplayField>OtherRole__c</errorDisplayField>
+    <errorMessage>Please fill the field Other Role only when the option &apos;other&apos; is chosen on Detailed Role</errorMessage>
+</ValidationRule>

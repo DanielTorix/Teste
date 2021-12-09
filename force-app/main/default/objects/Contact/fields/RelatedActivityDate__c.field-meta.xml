@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RelatedActivityDate__c</fullName>
+    <description>Field used to know when was the last related activity to this contact. Used for GDPR.</description>
+    <externalId>false</externalId>
+    <label>Related Activity Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Date</type>
+</CustomField>

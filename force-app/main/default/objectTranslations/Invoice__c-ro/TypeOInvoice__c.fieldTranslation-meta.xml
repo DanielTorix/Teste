@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tip factură</label>
+    <name>TypeOInvoice__c</name>
+    <picklistValues>
+        <masterLabel>Advance payment</masterLabel>
+        <translation>Plată în avans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS12</masterLabel>
+        <translation>Factură bonus - ZS12</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS92</masterLabel>
+        <translation>Factură bonus - ZS92</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel invoice debit</masterLabel>
+        <translation>Anulează factură debit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel prepayment invoice</masterLabel>
+        <translation>Anulează factură cu plată în avans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS13</masterLabel>
+        <translation>Factură de comision - ZS13</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS93</masterLabel>
+        <translation>Factură de comision - ZS93</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit memo invoice</masterLabel>
+        <translation>Factură tip notă de credit ZMC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD</masterLabel>
+        <translation>Factură tip notă de debit - ZMD</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD1</masterLabel>
+        <translation>Factură tip notă de debit - ZMD1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD2</masterLabel>
+        <translation>Factură tip notă de debit - ZMD2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit note CO2</masterLabel>
+        <translation>Notă de debit CO2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice debit</masterLabel>
+        <translation>Factură debit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DA</masterLabel>
+        <translation>Penalitate - DA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DF</masterLabel>
+        <translation>Penalitate - DF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepayment invoice</masterLabel>
+        <translation>Factură cu plată în avans</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return invoice</masterLabel>
+        <translation>Factură de retur</translation>
+    </picklistValues>
+</CustomFieldTranslation>

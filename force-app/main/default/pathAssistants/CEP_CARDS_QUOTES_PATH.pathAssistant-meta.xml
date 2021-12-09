@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Quote</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>CEP CARDS Quotes PATH</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Identifies when the customer agrees with the proposal and the status should be changed based on customer answer to the e-mail.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Accepted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Identifies when the customer doesn&amp;#39;t agree with the proposal and the status should be changed based on customer answer to the e-mail.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Denied</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Is destined to new quotes that have just been created and are being prepared by the sales agent.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Draft</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Identifies when the quote is sent to the customer for approval, this status should be automatically changed when the e-mail with the quote is sent , should not be possible to send the quote to the customer without management approval.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Presented</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>CEP_CARDS_QUOTES</recordTypeName>
+</PathAssistant>

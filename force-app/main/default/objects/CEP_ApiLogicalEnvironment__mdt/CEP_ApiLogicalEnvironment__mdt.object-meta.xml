@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Definition of a logical environment. In CEP API Setting hierarchy custom setting it is set the target logical environment for the API calls.</description>
+    <label>CEP API Logical Environment</label>
+    <pluralLabel>CEP API Logical Environments</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

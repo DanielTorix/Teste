@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReopenedInFlow__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>field created to be used only in the reopen case flow to avoid the validation rule</description>
+    <externalId>false</externalId>
+    <label>Reopened in Flow</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

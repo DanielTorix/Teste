@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CategoryT3__c</fullName>
+    <description>Field to define the T3 Category of the Case</description>
+    <externalId>false</externalId>
+    <label>Category T3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CategoryT2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Card status</fullName>
+                <default>false</default>
+                <label>Card status</label>
+            </value>
+            <value>
+                <fullName>Order support</fullName>
+                <default>false</default>
+                <label>Order support</label>
+            </value>
+            <value>
+                <fullName>Card Limit availability</fullName>
+                <default>false</default>
+                <label>Card Limit availability</label>
+            </value>
+            <value>
+                <fullName>PIN support</fullName>
+                <default>false</default>
+                <label>PIN support</label>
+            </value>
+            <value>
+                <fullName>Acceptance/Usage questions</fullName>
+                <default>false</default>
+                <label>Acceptance/Usage questions</label>
+            </value>
+            <value>
+                <fullName>Card delivery status</fullName>
+                <default>false</default>
+                <label>Card delivery status</label>
+            </value>
+            <value>
+                <fullName>Lock/Unlock</fullName>
+                <default>false</default>
+                <label>Lock/Unlock</label>
+            </value>
+            <value>
+                <fullName>Card activation</fullName>
+                <default>false</default>
+                <label>Card activation</label>
+            </value>
+            <value>
+                <fullName>Card fees</fullName>
+                <default>false</default>
+                <label>Card fees</label>
+            </value>
+            <value>
+                <fullName>Cost center</fullName>
+                <default>false</default>
+                <label>Cost center</label>
+            </value>
+            <value>
+                <fullName>CCTV registration</fullName>
+                <default>false</default>
+                <label>CCTV registration</label>
+            </value>
+            <value>
+                <fullName>Other card support</fullName>
+                <default>false</default>
+                <label>Other card support</label>
+            </value>
+            <value>
+                <fullName>PIN reset</fullName>
+                <default>false</default>
+                <label>PIN reset</label>
+            </value>
+            <value>
+                <fullName>Lock</fullName>
+                <default>false</default>
+                <label>Lock</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>Change card limit</fullName>
+                <default>false</default>
+                <label>Change card limit</label>
+            </value>
+            <value>
+                <fullName>PUK request</fullName>
+                <default>false</default>
+                <label>PUK request</label>
+            </value>
+            <value>
+                <fullName>PIN change</fullName>
+                <default>false</default>
+                <label>PIN change</label>
+            </value>
+            <value>
+                <fullName>Unlock</fullName>
+                <default>false</default>
+                <label>Unlock</label>
+            </value>
+            <value>
+                <fullName>Card replacement</fullName>
+                <default>false</default>
+                <label>Card replacement</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+            <value>
+                <fullName>Toll activation/deactivation</fullName>
+                <default>false</default>
+                <label>Toll activation/deactivation</label>
+            </value>
+            <value>
+                <fullName>Vehicle/Cost center change</fullName>
+                <default>false</default>
+                <label>Vehicle/Cost center change</label>
+            </value>
+            <value>
+                <fullName>CCTV registration (RO)</fullName>
+                <default>false</default>
+                <label>CCTV registration (RO)</label>
+            </value>
+            <value>
+                <fullName>Credit limit details</fullName>
+                <default>false</default>
+                <label>Credit limit details</label>
+            </value>
+            <value>
+                <fullName>Payment details</fullName>
+                <default>false</default>
+                <label>Payment details</label>
+            </value>
+            <value>
+                <fullName>Customer block information</fullName>
+                <default>false</default>
+                <label>Customer block information</label>
+            </value>
+            <value>
+                <fullName>Other credit management support</fullName>
+                <default>false</default>
+                <label>Other credit management support</label>
+            </value>
+            <value>
+                <fullName>Change account limit</fullName>
+                <default>false</default>
+                <label>Change account limit</label>
+            </value>
+            <value>
+                <fullName>MEX update/uplift</fullName>
+                <default>false</default>
+                <label>MEX update/uplift</label>
+            </value>
+            <value>
+                <fullName>Suspicious transactions</fullName>
+                <default>false</default>
+                <label>Suspicious transactions</label>
+            </value>
+            <value>
+                <fullName>Fraud monitoring</fullName>
+                <default>false</default>
+                <label>Fraud monitoring</label>
+            </value>
+            <value>
+                <fullName>Risk data update</fullName>
+                <default>false</default>
+                <label>Risk data update</label>
+            </value>
+            <value>
+                <fullName>Handling Insurances</fullName>
+                <default>false</default>
+                <label>Handling Insurances</label>
+            </value>
+            <value>
+                <fullName>Debt collection</fullName>
+                <default>false</default>
+                <label>Debt collection</label>
+            </value>
+            <value>
+                <fullName>Unlock Customer</fullName>
+                <default>false</default>
+                <label>Unlock Customer</label>
+            </value>
+            <value>
+                <fullName>Send Open Items</fullName>
+                <default>false</default>
+                <label>Send Open Items</label>
+            </value>
+            <value>
+                <fullName>Invoice details</fullName>
+                <default>false</default>
+                <label>Invoice details</label>
+            </value>
+            <value>
+                <fullName>Invoice copy information</fullName>
+                <default>false</default>
+                <label>Invoice copy information</label>
+            </value>
+            <value>
+                <fullName>Overdue/Penalties/Dunning info</fullName>
+                <default>false</default>
+                <label>Overdue/Penalties/Dunning info</label>
+            </value>
+            <value>
+                <fullName>Transaction information</fullName>
+                <default>false</default>
+                <label>Transaction information</label>
+            </value>
+            <value>
+                <fullName>Settlements/payment differences info</fullName>
+                <default>false</default>
+                <label>Settlements/payment differences info</label>
+            </value>
+            <value>
+                <fullName>Other invoicing support</fullName>
+                <default>false</default>
+                <label>Other invoicing support</label>
+            </value>
+            <value>
+                <fullName>Invoice copy request</fullName>
+                <default>false</default>
+                <label>Invoice copy request</label>
+            </value>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>Invoice type change</fullName>
+                <default>false</default>
+                <label>Invoice type change</label>
+            </value>
+            <value>
+                <fullName>Current invoice details/VAT Refund</fullName>
+                <default>false</default>
+                <label>Current invoice details/VAT Refund</label>
+            </value>
+            <value>
+                <fullName>Payments history</fullName>
+                <default>false</default>
+                <label>Payments history</label>
+            </value>
+            <value>
+                <fullName>Overdue/Penalties invoice details</fullName>
+                <default>false</default>
+                <label>Overdue/Penalties invoice details</label>
+            </value>
+            <value>
+                <fullName>Commission (document)</fullName>
+                <default>false</default>
+                <label>Commission (document)</label>
+            </value>
+            <value>
+                <fullName>Data medium</fullName>
+                <default>false</default>
+                <label>Data medium</label>
+            </value>
+            <value>
+                <fullName>General support</fullName>
+                <default>false</default>
+                <label>General support</label>
+            </value>
+            <value>
+                <fullName>Account status</fullName>
+                <default>false</default>
+                <label>Account status</label>
+            </value>
+            <value>
+                <fullName>Conditions and fees</fullName>
+                <default>false</default>
+                <label>Conditions and fees</label>
+            </value>
+            <value>
+                <fullName>Payment type and payment period</fullName>
+                <default>false</default>
+                <label>Payment type and payment period</label>
+            </value>
+            <value>
+                <fullName>Address, email and contacts</fullName>
+                <default>false</default>
+                <label>Address, email and contacts</label>
+            </value>
+            <value>
+                <fullName>Banking data, SEPA</fullName>
+                <default>false</default>
+                <label>Banking data, SEPA</label>
+            </value>
+            <value>
+                <fullName>Company name</fullName>
+                <default>false</default>
+                <label>Company name</label>
+            </value>
+            <value>
+                <fullName>Customer legal changes / VAT</fullName>
+                <default>false</default>
+                <label>Customer legal changes / VAT</label>
+            </value>
+            <value>
+                <fullName>Segment and sales rep</fullName>
+                <default>false</default>
+                <label>Segment and sales rep</label>
+            </value>
+            <value>
+                <fullName>Templates (Limits on Customer level)</fullName>
+                <default>false</default>
+                <label>Templates (Limits on Customer level)</label>
+            </value>
+            <value>
+                <fullName>Other master-data operation</fullName>
+                <default>false</default>
+                <label>Other master-data operation</label>
+            </value>
+            <value>
+                <fullName>DocuSign support</fullName>
+                <default>false</default>
+                <label>DocuSign support</label>
+            </value>
+            <value>
+                <fullName>Customer reporting</fullName>
+                <default>false</default>
+                <label>Customer reporting</label>
+            </value>
+            <value>
+                <fullName>Internal reports</fullName>
+                <default>false</default>
+                <label>Internal reports</label>
+            </value>
+            <value>
+                <fullName>System approvals</fullName>
+                <default>false</default>
+                <label>System approvals</label>
+            </value>
+            <value>
+                <fullName>JIRA ticketing</fullName>
+                <default>false</default>
+                <label>JIRA ticketing</label>
+            </value>
+            <value>
+                <fullName>Partners requests (OIS)</fullName>
+                <default>false</default>
+                <label>Partners requests (OIS)</label>
+            </value>
+            <value>
+                <fullName>Voucher Information</fullName>
+                <default>false</default>
+                <label>Voucher Information</label>
+            </value>
+            <value>
+                <fullName>Voucher order support</fullName>
+                <default>false</default>
+                <label>Voucher order support</label>
+            </value>
+            <value>
+                <fullName>Delivery status</fullName>
+                <default>false</default>
+                <label>Delivery status</label>
+            </value>
+            <value>
+                <fullName>Payment status/details</fullName>
+                <default>false</default>
+                <label>Payment status/details</label>
+            </value>
+            <value>
+                <fullName>Activation support</fullName>
+                <default>false</default>
+                <label>Activation support</label>
+            </value>
+            <value>
+                <fullName>Voucher order</fullName>
+                <default>false</default>
+                <label>Voucher order</label>
+            </value>
+            <value>
+                <fullName>Activation</fullName>
+                <default>false</default>
+                <label>Activation</label>
+            </value>
+            <value>
+                <fullName>Reactivation</fullName>
+                <default>false</default>
+                <label>Reactivation</label>
+            </value>
+            <value>
+                <fullName>Deactivation</fullName>
+                <default>false</default>
+                <label>Deactivation</label>
+            </value>
+            <value>
+                <fullName>Other voucher operation</fullName>
+                <default>false</default>
+                <label>Other voucher operation</label>
+            </value>
+            <value>
+                <fullName>Toll/VAT info</fullName>
+                <default>false</default>
+                <label>Toll/VAT info</label>
+            </value>
+            <value>
+                <fullName>Toll Device/OBU</fullName>
+                <default>false</default>
+                <label>Toll Device/OBU</label>
+            </value>
+            <value>
+                <fullName>Vignette support</fullName>
+                <default>false</default>
+                <label>Vignette support</label>
+            </value>
+            <value>
+                <fullName>Toll EETS</fullName>
+                <default>false</default>
+                <label>Toll EETS</label>
+            </value>
+            <value>
+                <fullName>Other toll support</fullName>
+                <default>false</default>
+                <label>Other toll support</label>
+            </value>
+            <value>
+                <fullName>Request for order</fullName>
+                <default>false</default>
+                <label>Request for order</label>
+            </value>
+            <value>
+                <fullName>Registration/Contracting</fullName>
+                <default>false</default>
+                <label>Registration/Contracting</label>
+            </value>
+            <value>
+                <fullName>Vignette operation</fullName>
+                <default>false</default>
+                <label>Vignette operation</label>
+            </value>
+            <value>
+                <fullName>Changes</fullName>
+                <default>false</default>
+                <label>Changes</label>
+            </value>
+            <value>
+                <fullName>Postpay activation request</fullName>
+                <default>false</default>
+                <label>Postpay activation request</label>
+            </value>
+            <value>
+                <fullName>Reporting toll</fullName>
+                <default>false</default>
+                <label>Reporting toll</label>
+            </value>
+            <value>
+                <fullName>Device Status</fullName>
+                <default>false</default>
+                <label>Device Status</label>
+            </value>
+            <value>
+                <fullName>VAT refund contract</fullName>
+                <default>false</default>
+                <label>VAT refund contract</label>
+            </value>
+            <value>
+                <fullName>Excise</fullName>
+                <default>false</default>
+                <label>Excise</label>
+            </value>
+            <value>
+                <fullName>VAT other</fullName>
+                <default>false</default>
+                <label>VAT other</label>
+            </value>
+            <value>
+                <fullName>CO2</fullName>
+                <default>false</default>
+                <label>CO2</label>
+            </value>
+            <value>
+                <fullName>FS details &amp; network</fullName>
+                <default>false</default>
+                <label>FS details &amp; network</label>
+            </value>
+            <value>
+                <fullName>Acceptance issues</fullName>
+                <default>false</default>
+                <label>Acceptance issues</label>
+            </value>
+            <value>
+                <fullName>Voice authorization</fullName>
+                <default>false</default>
+                <label>Voice authorization</label>
+            </value>
+            <value>
+                <fullName>Offline voucher (RO)</fullName>
+                <default>false</default>
+                <label>Offline voucher (RO)</label>
+            </value>
+            <value>
+                <fullName>Opening FS</fullName>
+                <default>false</default>
+                <label>Opening FS</label>
+            </value>
+            <value>
+                <fullName>Closing FS</fullName>
+                <default>false</default>
+                <label>Closing FS</label>
+            </value>
+            <value>
+                <fullName>Partner change</fullName>
+                <default>false</default>
+                <label>Partner change</label>
+            </value>
+            <value>
+                <fullName>Mixed Pumps</fullName>
+                <default>false</default>
+                <label>Mixed Pumps</label>
+            </value>
+            <value>
+                <fullName>Drive off</fullName>
+                <default>false</default>
+                <label>Drive off</label>
+            </value>
+            <value>
+                <fullName>FS Other</fullName>
+                <default>false</default>
+                <label>FS Other</label>
+            </value>
+            <value>
+                <fullName>General information/other</fullName>
+                <default>false</default>
+                <label>General information/other</label>
+            </value>
+            <value>
+                <fullName>Reporting information support</fullName>
+                <default>false</default>
+                <label>Reporting information support</label>
+            </value>
+            <value>
+                <fullName>Card support and status</fullName>
+                <default>false</default>
+                <label>Card support and status</label>
+            </value>
+            <value>
+                <fullName>Other FOS support</fullName>
+                <default>false</default>
+                <label>Other FOS support</label>
+            </value>
+            <value>
+                <fullName>Reset user and password</fullName>
+                <default>false</default>
+                <label>Reset user and password</label>
+            </value>
+            <value>
+                <fullName>FOS prospect activation</fullName>
+                <default>false</default>
+                <label>FOS prospect activation</label>
+            </value>
+            <value>
+                <fullName>FOS settings</fullName>
+                <default>false</default>
+                <label>FOS settings</label>
+            </value>
+            <value>
+                <fullName>Reporting support</fullName>
+                <default>false</default>
+                <label>Reporting support</label>
+            </value>
+            <value>
+                <fullName>Card activation &amp; limit change</fullName>
+                <default>false</default>
+                <label>Card activation &amp; limit change</label>
+            </value>
+            <value>
+                <fullName>FOS approval</fullName>
+                <default>false</default>
+                <label>FOS approval</label>
+            </value>
+            <value>
+                <fullName>FOS deactivation</fullName>
+                <default>false</default>
+                <label>FOS deactivation</label>
+            </value>
+            <value>
+                <fullName>FOS activation</fullName>
+                <default>false</default>
+                <label>FOS activation</label>
+            </value>
+            <value>
+                <fullName>Routex Cards C-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards C-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards C-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards C-DS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS C-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS C-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS C-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS C-DS</label>
+            </value>
+            <value>
+                <fullName>Stations / Petrom Cards C-WS</fullName>
+                <default>false</default>
+                <label>Stations / Petrom Cards C-WS</label>
+            </value>
+            <value>
+                <fullName>Stations / Petrom Cards C-DS</fullName>
+                <default>false</default>
+                <label>Stations / Petrom Cards C-DS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards CA-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards CA-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards CA-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards CA-DS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS CA-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS CA-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS CA-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS CA-DS</label>
+            </value>
+            <value>
+                <fullName>VAS CA-WS</fullName>
+                <default>false</default>
+                <label>VAS CA-WS</label>
+            </value>
+            <value>
+                <fullName>VAS CA-DS</fullName>
+                <default>false</default>
+                <label>VAS CA-DS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards AC-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards AC-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards AC-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards AC-DS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS AC-WS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS AC-WS</label>
+            </value>
+            <value>
+                <fullName>Routex Cards + VAS AC-DS</fullName>
+                <default>false</default>
+                <label>Routex Cards + VAS AC-DS</label>
+            </value>
+            <value>
+                <fullName>VAS AC-WS</fullName>
+                <default>false</default>
+                <label>VAS AC-WS</label>
+            </value>
+            <value>
+                <fullName>VAS AC-DS</fullName>
+                <default>false</default>
+                <label>VAS AC-DS</label>
+            </value>
+            <value>
+                <fullName>Request for information</fullName>
+                <default>false</default>
+                <label>Request for information</label>
+            </value>
+            <value>
+                <fullName>Eligible client</fullName>
+                <default>false</default>
+                <label>Eligible client</label>
+            </value>
+            <value>
+                <fullName>Ineligible client</fullName>
+                <default>false</default>
+                <label>Ineligible client</label>
+            </value>
+            <value>
+                <fullName>Station card offer</fullName>
+                <default>false</default>
+                <label>Station card offer</label>
+            </value>
+            <value>
+                <fullName>Authority request</fullName>
+                <default>false</default>
+                <label>Authority request</label>
+            </value>
+            <value>
+                <fullName>Abusive call</fullName>
+                <default>false</default>
+                <label>Abusive call</label>
+            </value>
+            <value>
+                <fullName>Filling station</fullName>
+                <default>false</default>
+                <label>Filling station</label>
+            </value>
+            <value>
+                <fullName>Card</fullName>
+                <default>false</default>
+                <label>Card</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Gas contact details</fullName>
+                <default>false</default>
+                <label>Gas contact details</label>
+            </value>
+            <value>
+                <fullName>Electricity contact details</fullName>
+                <default>false</default>
+                <label>Electricity contact details</label>
+            </value>
+            <value>
+                <fullName>Sponsorship</fullName>
+                <default>false</default>
+                <label>Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Franchise</fullName>
+                <default>false</default>
+                <label>Franchise</label>
+            </value>
+            <value>
+                <fullName>Bulk</fullName>
+                <default>false</default>
+                <label>Bulk</label>
+            </value>
+            <value>
+                <fullName>Gas tank</fullName>
+                <default>false</default>
+                <label>Gas tank</label>
+            </value>
+            <value>
+                <fullName>Other contact details</fullName>
+                <default>false</default>
+                <label>Other contact details</label>
+            </value>
+            <value>
+                <fullName>Receipt copy</fullName>
+                <default>false</default>
+                <label>Receipt copy</label>
+            </value>
+            <value>
+                <fullName>Other FS</fullName>
+                <default>false</default>
+                <label>Other FS</label>
+            </value>
+            <value>
+                <fullName>Stock</fullName>
+                <default>false</default>
+                <label>Stock</label>
+            </value>
+            <value>
+                <fullName>Product return</fullName>
+                <default>false</default>
+                <label>Product return</label>
+            </value>
+            <value>
+                <fullName>Campaign details</fullName>
+                <default>false</default>
+                <label>Campaign details</label>
+            </value>
+            <value>
+                <fullName>FS stock</fullName>
+                <default>false</default>
+                <label>FS stock</label>
+            </value>
+            <value>
+                <fullName>FS product return</fullName>
+                <default>false</default>
+                <label>FS product return</label>
+            </value>
+            <value>
+                <fullName>FS campaign details</fullName>
+                <default>false</default>
+                <label>FS campaign details</label>
+            </value>
+            <value>
+                <fullName>Money transfer</fullName>
+                <default>false</default>
+                <label>Money transfer</label>
+            </value>
+            <value>
+                <fullName>Vignettes</fullName>
+                <default>false</default>
+                <label>Vignettes</label>
+            </value>
+            <value>
+                <fullName>Car wash</fullName>
+                <default>false</default>
+                <label>Car wash</label>
+            </value>
+            <value>
+                <fullName>Gas product</fullName>
+                <default>false</default>
+                <label>Gas product</label>
+            </value>
+            <value>
+                <fullName>Electricity product</fullName>
+                <default>false</default>
+                <label>Electricity product</label>
+            </value>
+            <value>
+                <fullName>LPG product</fullName>
+                <default>false</default>
+                <label>LPG product</label>
+            </value>
+            <value>
+                <fullName>Adblue product</fullName>
+                <default>false</default>
+                <label>Adblue product</label>
+            </value>
+            <value>
+                <fullName>Fuel product</fullName>
+                <default>false</default>
+                <label>Fuel product</label>
+            </value>
+            <value>
+                <fullName>Other product</fullName>
+                <default>false</default>
+                <label>Other product</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+                <label>Procurement</label>
+            </value>
+            <value>
+                <fullName>Investors relation</fullName>
+                <default>false</default>
+                <label>Investors relation</label>
+            </value>
+            <value>
+                <fullName>Domestic Assets</fullName>
+                <default>false</default>
+                <label>Domestic Assets</label>
+            </value>
+            <value>
+                <fullName>Accounts Payable</fullName>
+                <default>false</default>
+                <label>Accounts Payable</label>
+            </value>
+            <value>
+                <fullName>HR Admin</fullName>
+                <default>false</default>
+                <label>HR Admin</label>
+            </value>
+            <value>
+                <fullName>Jobs</fullName>
+                <default>false</default>
+                <label>Jobs</label>
+            </value>
+            <value>
+                <fullName>Archive</fullName>
+                <default>false</default>
+                <label>Archive</label>
+            </value>
+            <value>
+                <fullName>Gas</fullName>
+                <default>false</default>
+                <label>Gas</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Wind power</fullName>
+                <default>false</default>
+                <label>Wind power</label>
+            </value>
+            <value>
+                <fullName>Comercial</fullName>
+                <default>false</default>
+                <label>Comercial</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>CSO</fullName>
+                <default>false</default>
+                <label>CSO</label>
+            </value>
+            <value>
+                <fullName>Acc. receivable</fullName>
+                <default>false</default>
+                <label>Acc. receivable</label>
+            </value>
+            <value>
+                <fullName>LPG</fullName>
+                <default>false</default>
+                <label>LPG</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Asset</fullName>
+                <default>false</default>
+                <label>Asset</label>
+            </value>
+            <value>
+                <fullName>Petrochemicals</fullName>
+                <default>false</default>
+                <label>Petrochemicals</label>
+            </value>
+            <value>
+                <fullName>Bitumen</fullName>
+                <default>false</default>
+                <label>Bitumen</label>
+            </value>
+            <value>
+                <fullName>Refinery</fullName>
+                <default>false</default>
+                <label>Refinery</label>
+            </value>
+            <value>
+                <fullName>Real estate</fullName>
+                <default>false</default>
+                <label>Real estate</label>
+            </value>
+            <value>
+                <fullName>Car fleet</fullName>
+                <default>false</default>
+                <label>Car fleet</label>
+            </value>
+            <value>
+                <fullName>OPGS</fullName>
+                <default>false</default>
+                <label>OPGS</label>
+            </value>
+            <value>
+                <fullName>Facility</fullName>
+                <default>false</default>
+                <label>Facility</label>
+            </value>
+            <value>
+                <fullName>Registry</fullName>
+                <default>false</default>
+                <label>Registry</label>
+            </value>
+            <value>
+                <fullName>Business Support</fullName>
+                <default>false</default>
+                <label>Business Support</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Card acceptance issues</fullName>
+                <default>false</default>
+                <label>Card acceptance issues</label>
+            </value>
+            <value>
+                <fullName>Card / PIN not received</fullName>
+                <default>false</default>
+                <label>Card / PIN not received</label>
+            </value>
+            <value>
+                <fullName>Wrong card embossed</fullName>
+                <default>false</default>
+                <label>Wrong card embossed</label>
+            </value>
+            <value>
+                <fullName>Illegible PIN</fullName>
+                <default>false</default>
+                <label>Illegible PIN</label>
+            </value>
+            <value>
+                <fullName>Other card claim</fullName>
+                <default>false</default>
+                <label>Other card claim</label>
+            </value>
+            <value>
+                <fullName>Fuel quality</fullName>
+                <default>false</default>
+                <label>Fuel quality</label>
+            </value>
+            <value>
+                <fullName>Transactions issue</fullName>
+                <default>false</default>
+                <label>Transactions issue</label>
+            </value>
+            <value>
+                <fullName>Wrong or missing data</fullName>
+                <default>false</default>
+                <label>Wrong or missing data</label>
+            </value>
+            <value>
+                <fullName>Other invoice claim</fullName>
+                <default>false</default>
+                <label>Other invoice claim</label>
+            </value>
+            <value>
+                <fullName>Voucher usage</fullName>
+                <default>false</default>
+                <label>Voucher usage</label>
+            </value>
+            <value>
+                <fullName>Voucher delivery</fullName>
+                <default>false</default>
+                <label>Voucher delivery</label>
+            </value>
+            <value>
+                <fullName>Voucher other</fullName>
+                <default>false</default>
+                <label>Voucher other</label>
+            </value>
+            <value>
+                <fullName>Doubled transactions</fullName>
+                <default>false</default>
+                <label>Doubled transactions</label>
+            </value>
+            <value>
+                <fullName>Not recognized TRX</fullName>
+                <default>false</default>
+                <label>Not recognized TRX</label>
+            </value>
+            <value>
+                <fullName>Transactions received after cancellation</fullName>
+                <default>false</default>
+                <label>Transactions received after cancellation</label>
+            </value>
+            <value>
+                <fullName>Vignette</fullName>
+                <default>false</default>
+                <label>Vignette</label>
+            </value>
+            <value>
+                <fullName>Fines</fullName>
+                <default>false</default>
+                <label>Fines</label>
+            </value>
+            <value>
+                <fullName>Blocked device</fullName>
+                <default>false</default>
+                <label>Blocked device</label>
+            </value>
+            <value>
+                <fullName>Blocked account</fullName>
+                <default>false</default>
+                <label>Blocked account</label>
+            </value>
+            <value>
+                <fullName>Device not working</fullName>
+                <default>false</default>
+                <label>Device not working</label>
+            </value>
+            <value>
+                <fullName>Other OBUs claim</fullName>
+                <default>false</default>
+                <label>Other OBUs claim</label>
+            </value>
+            <value>
+                <fullName>Other card complaint</fullName>
+                <default>false</default>
+                <label>Other card complaint</label>
+            </value>
+            <value>
+                <fullName>Invoice not received</fullName>
+                <default>false</default>
+                <label>Invoice not received</label>
+            </value>
+            <value>
+                <fullName>Other invoice complaint</fullName>
+                <default>false</default>
+                <label>Other invoice complaint</label>
+            </value>
+            <value>
+                <fullName>Other OBUs complaint</fullName>
+                <default>false</default>
+                <label>Other OBUs complaint</label>
+            </value>
+            <value>
+                <fullName>Not working</fullName>
+                <default>false</default>
+                <label>Not working</label>
+            </value>
+            <value>
+                <fullName>CSO Agent</fullName>
+                <default>false</default>
+                <label>CSO Agent</label>
+            </value>
+            <value>
+                <fullName>Sales or Other</fullName>
+                <default>false</default>
+                <label>Sales or Other</label>
+            </value>
+            <value>
+                <fullName>Case Category 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Case Category 3</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Accounts Payable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>HR Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Jobs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Archive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gas &amp; Energy</controllingFieldValue>
+            <valueName>Gas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gas &amp; Energy</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gas &amp; Energy</controllingFieldValue>
+            <valueName>Wind power</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>Comercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>Aviation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>CSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>Acc. receivable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>LPG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OPM</controllingFieldValue>
+            <valueName>Asset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refining &amp; Mkt</controllingFieldValue>
+            <valueName>Petrochemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refining &amp; Mkt</controllingFieldValue>
+            <valueName>Bitumen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refining &amp; Mkt</controllingFieldValue>
+            <valueName>Refinery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>Real estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>Car fleet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>OPGS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>Facility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>Registry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CREM</controllingFieldValue>
+            <valueName>Business Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card acceptance issues</controllingFieldValue>
+            <valueName>Card acceptance issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Card/PIN issues</controllingFieldValue>
+            <valueName>Card / PIN not received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Card/PIN issues</controllingFieldValue>
+            <valueName>Wrong card embossed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Card/PIN issues</controllingFieldValue>
+            <valueName>Illegible PIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Card/PIN issues</controllingFieldValue>
+            <valueName>Other card claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery Card/PIN issues</controllingFieldValue>
+            <valueName>Other card complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fuel quality</controllingFieldValue>
+            <valueName>Fuel quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>DocuSign support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice problems</controllingFieldValue>
+            <valueName>Transactions issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice problems</controllingFieldValue>
+            <valueName>Wrong or missing data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice problems</controllingFieldValue>
+            <valueName>Other invoice claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice problems</controllingFieldValue>
+            <valueName>Invoice not received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoice problems</controllingFieldValue>
+            <valueName>Other invoice complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems operation</controllingFieldValue>
+            <valueName>Customer reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems operation</controllingFieldValue>
+            <valueName>Internal reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems operation</controllingFieldValue>
+            <valueName>System approvals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems operation</controllingFieldValue>
+            <valueName>JIRA ticketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Systems operation</controllingFieldValue>
+            <valueName>Partners requests (OIS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher business</controllingFieldValue>
+            <controllingFieldValue>Voucher order creation</controllingFieldValue>
+            <valueName>Voucher order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher business</controllingFieldValue>
+            <valueName>Voucher usage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher business</controllingFieldValue>
+            <valueName>Voucher delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher business</controllingFieldValue>
+            <valueName>Voucher other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher general support</controllingFieldValue>
+            <valueName>Voucher Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transactions</controllingFieldValue>
+            <valueName>Doubled transactions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transactions</controllingFieldValue>
+            <valueName>Not recognized TRX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transactions</controllingFieldValue>
+            <valueName>Transactions received after cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transactions</controllingFieldValue>
+            <valueName>Vignette</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher order support</controllingFieldValue>
+            <valueName>Voucher order support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher order support</controllingFieldValue>
+            <valueName>Delivery status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher order support</controllingFieldValue>
+            <valueName>Payment status/details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher order support</controllingFieldValue>
+            <valueName>Activation support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fines</controllingFieldValue>
+            <valueName>Fines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBUs issues</controllingFieldValue>
+            <valueName>Blocked device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBUs issues</controllingFieldValue>
+            <valueName>Blocked account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBUs issues</controllingFieldValue>
+            <valueName>Device not working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBUs issues</controllingFieldValue>
+            <valueName>Other OBUs claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OBUs issues</controllingFieldValue>
+            <valueName>Other OBUs complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher general operation</controllingFieldValue>
+            <valueName>Activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher general operation</controllingFieldValue>
+            <valueName>Reactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher general operation</controllingFieldValue>
+            <valueName>Deactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher general operation</controllingFieldValue>
+            <valueName>Other voucher operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issues</controllingFieldValue>
+            <valueName>Not working</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll support</controllingFieldValue>
+            <valueName>Toll/VAT info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll support</controllingFieldValue>
+            <valueName>Toll Device/OBU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll support</controllingFieldValue>
+            <valueName>Vignette support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll support</controllingFieldValue>
+            <valueName>Toll EETS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll support</controllingFieldValue>
+            <valueName>Other toll support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Request for order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Registration/Contracting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Vignette operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Postpay activation request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Reporting toll</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toll operation</controllingFieldValue>
+            <valueName>Device Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAT refund</controllingFieldValue>
+            <valueName>VAT refund contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAT refund</controllingFieldValue>
+            <valueName>Excise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VAT refund</controllingFieldValue>
+            <valueName>VAT other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CO2</controllingFieldValue>
+            <valueName>CO2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Card status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Order support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Card Limit availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>PIN support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Acceptance/Usage questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Card delivery status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Lock/Unlock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Card activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Card fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Cost center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>CCTV registration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card support</controllingFieldValue>
+            <valueName>Other card support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>PIN reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Lock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Change card limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>PUK request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>PIN change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Unlock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Card replacement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Toll activation/deactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>Vehicle/Cost center change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card operation</controllingFieldValue>
+            <valueName>CCTV registration (RO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management support</controllingFieldValue>
+            <valueName>Credit limit details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management support</controllingFieldValue>
+            <valueName>Payment details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management support</controllingFieldValue>
+            <valueName>Customer block information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management support</controllingFieldValue>
+            <valueName>Other credit management support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Change account limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>MEX update/uplift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Suspicious transactions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Fraud monitoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Risk data update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Handling Insurances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Debt collection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Unlock Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit management operation</controllingFieldValue>
+            <valueName>Send Open Items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Invoice details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Invoice copy information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Overdue/Penalties/Dunning info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Transaction information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Settlements/payment differences info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing support</controllingFieldValue>
+            <valueName>Other invoicing support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Invoice copy request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Transaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Invoice type change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Current invoice details/VAT Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Payments history</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Overdue/Penalties invoice details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Commission (document)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoicing operation</controllingFieldValue>
+            <valueName>Data medium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer data and Conditions (New customer)</controllingFieldValue>
+            <valueName>General support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer data and Conditions (New customer)</controllingFieldValue>
+            <valueName>Account status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer data and Conditions (New customer)</controllingFieldValue>
+            <valueName>Conditions and fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer data and Conditions (New customer)</controllingFieldValue>
+            <valueName>Payment type and payment period</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Address, email and contacts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Banking data, SEPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Company name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Customer legal changes / VAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Segment and sales rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Templates (Limits on Customer level)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Master-data operation (Existing customer)</controllingFieldValue>
+            <valueName>Other master-data operation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Quality</controllingFieldValue>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Filling station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Quality</controllingFieldValue>
+            <valueName>CSO Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service Quality</controllingFieldValue>
+            <valueName>Sales or Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS details &amp; network</controllingFieldValue>
+            <valueName>FS details &amp; network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Problems</controllingFieldValue>
+            <valueName>Acceptance issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card User Problems</controllingFieldValue>
+            <valueName>Voice authorization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card User Problems</controllingFieldValue>
+            <valueName>Offline voucher (RO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS status</controllingFieldValue>
+            <valueName>Opening FS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS status</controllingFieldValue>
+            <valueName>Closing FS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner</controllingFieldValue>
+            <valueName>Partner change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS requests</controllingFieldValue>
+            <valueName>Mixed Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS requests</controllingFieldValue>
+            <valueName>Drive off</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FS requests</controllingFieldValue>
+            <valueName>FS Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS support</controllingFieldValue>
+            <valueName>General information/other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS support</controllingFieldValue>
+            <valueName>Reporting information support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS support</controllingFieldValue>
+            <valueName>Card support and status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS support</controllingFieldValue>
+            <valueName>Other FOS support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS account</controllingFieldValue>
+            <valueName>Reset user and password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS account</controllingFieldValue>
+            <valueName>FOS prospect activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>FOS settings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>Reporting support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>Card activation &amp; limit change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>FOS approval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>FOS deactivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FOS operation</controllingFieldValue>
+            <valueName>FOS activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Routex Cards C-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Routex Cards C-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Routex Cards + VAS C-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Routex Cards + VAS C-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Stations / Petrom Cards C-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Contract (New Customer)</controllingFieldValue>
+            <valueName>Stations / Petrom Cards C-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>Routex Cards CA-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>Routex Cards CA-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>Routex Cards + VAS CA-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>Routex Cards + VAS CA-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>VAS CA-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract Amendment</controllingFieldValue>
+            <valueName>VAS CA-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>Routex Cards AC-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>Routex Cards AC-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>Routex Cards + VAS AC-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>Routex Cards + VAS AC-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>VAS AC-WS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Announcement of Change</controllingFieldValue>
+            <valueName>VAS AC-DS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Request for information</controllingFieldValue>
+            <valueName>Request for information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card offer (Routex/Station)</controllingFieldValue>
+            <valueName>Eligible client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card offer (Routex/Station)</controllingFieldValue>
+            <valueName>Ineligible client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card offer (Routex/Station)</controllingFieldValue>
+            <valueName>Station card offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Authority request</controllingFieldValue>
+            <valueName>Authority request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer behavior</controllingFieldValue>
+            <valueName>Abusive call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Gas contact details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Electricity contact details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Sponsorship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Franchise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Bulk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Gas tank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact details</controllingFieldValue>
+            <valueName>Other contact details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Filling station</controllingFieldValue>
+            <valueName>Receipt copy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Filling station</controllingFieldValue>
+            <valueName>Other FS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site promotions</controllingFieldValue>
+            <valueName>Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site promotions</controllingFieldValue>
+            <valueName>Product return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site promotions</controllingFieldValue>
+            <valueName>Campaign details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Filling station promotions</controllingFieldValue>
+            <valueName>FS stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Filling station promotions</controllingFieldValue>
+            <valueName>FS product return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Filling station promotions</controllingFieldValue>
+            <valueName>FS campaign details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Money transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Vignettes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Services</controllingFieldValue>
+            <valueName>Car wash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Gas product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Electricity product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>LPG product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Adblue product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Fuel product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>Other product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEO</controllingFieldValue>
+            <valueName>Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEO</controllingFieldValue>
+            <valueName>Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEO</controllingFieldValue>
+            <valueName>Procurement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEO</controllingFieldValue>
+            <valueName>Investors relation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Explo&amp;Prod</controllingFieldValue>
+            <valueName>Domestic Assets</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

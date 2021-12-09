@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckboxMustBeTrue</fullName>
+    <active>true</active>
+    <description>when GDPR is true one of the checkboxes must be true</description>
+    <errorConditionFormula>NOT($Setup.CEPSkipValidationRules__c.Lead__c) &amp;&amp; 
+TEXT(GeneralGDPR__c) = &apos;Yes&apos; &amp;&amp;
+ConfirmYouHaveWrittenConsent__c = false &amp;&amp;
+ ConfirmYouCalledTheContact__c  = false</errorConditionFormula>
+    <errorMessage>One of the checkboxes must be true. Please provide information on the method that the consent was collected</errorMessage>
+</ValidationRule>

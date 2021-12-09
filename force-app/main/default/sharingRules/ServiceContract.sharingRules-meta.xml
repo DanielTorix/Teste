@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Central_Service</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing regional Service Contracts with regional Service Department</description>
+        <label>Central-Service</label>
+        <sharedTo>
+            <group>Central_Service</group>
+        </sharedTo>
+        <booleanFilter>( 1 OR 2 OR 3 ) AND 4</booleanFilter>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>HU</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>SK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>CZ</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>FPS Bor Service Contract</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>East_Service</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Sharing regional Service Contracts with regional Service Department</description>
+        <label>East-Service</label>
+        <sharedTo>
+            <group>East_Service</group>
+        </sharedTo>
+        <booleanFilter>( 1 OR 2 OR 3 OR 4 ) AND 5</booleanFilter>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>RO</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>BG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>RS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>MD</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>FPS Bor Service Contract</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>West_Service</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Service Contracts with West Service</description>
+        <label>West-Service</label>
+        <sharedTo>
+            <group>West_Service</group>
+        </sharedTo>
+        <booleanFilter>( 1 OR 2 OR 3 ) AND 4</booleanFilter>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>AT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>DE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>ATP_VSOP_Region__c</field>
+            <operation>equals</operation>
+            <value>SI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>FPS Bor Service Contract</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

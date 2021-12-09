@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Czech Republic</label>
+    <protected>false</protected>
+    <values>
+        <field>Body_English__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. Purpose of this privacy policy&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The present data protection statement of OMV Česká republika, s.r.o. (hereinafter referred to as &quot;OMV&quot;) provides information on the purpose as well as the manner of processing of personal data in connection with the use of the Salesforce.com Platform.
+The SalesForce Customer Portal is a web portal/application used for online access to wholesale orders, invoices, and information for wholesale customers with direct deliveries and custom fuel consumption records.
+Through the customer portal, OMV sends all invoices in electronic format and allows its customers to order OMV goods or services electronically. The OMV customer portal will also make available to the customer the online records of information concerning agreements between OMV and the customer and / or business offers addressed to the customer, as well as information on possible credit limits and general customer data.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;2. Purpose and legal basis of the data processing&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data are processed by OMV for the purpose of customer management on the legal basis of contract fulfillment as defined in Art 6 para 1 lit b GDPR.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Which personal data is collected?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV processes the following personal information in the online portal that is necessary for the above-mentioned purposes: contact information that makes you identifiable, such as full name, telephone number(s), function, position, company name and address as well as company email address.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Why OMV needs your personal data and how they are used (recipient of the data)&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data will only be viewed by the responsible OMV employees for the purpose of customer management. The possible recipient of your personal data is the external service provider Salesforce.com, which offer the web portal and provide ongoing maintenance and services. The platform is maintained by OMV and your personal data will not be transferred to countries outside EU. &lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. How long is your data stored?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV stores your data for as long as the purpose of the data processing requires it or legal obligations to retain data exist. In principle, the data will be stored as long as the contract is valid, and the user account is active &lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;6. Other rights to process your personal data in accordance with GDPR&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;In the context of the processing of your personal data, you have the following rights:
+&lt;br&gt;a. The right of access to the processed personal data: you have the right to obtain a confirmation whether or not your personal data are being processed, and, if affirmative, to have access to the type of personal data and to the conditions of processing, by addressing a request in this respect to OMV;
+&lt;br&gt; b. The right to request the rectification: you have the right to request, by sending a request in this respect to OMV, the rectification of inaccurate personal data, or the supplementation of incomplete data;
+&lt;br&gt; c. The right to erasure of personal data: you have the right for the erasure of your personal data in case (i) the data are no longer needed for their original purpose (and no new lawful purpose exists), (ii) you exercise the right to object and OMV has no overriding grounds for continuing the processing, (iii) the data have been processed unlawfully or (iv) erasure is necessary for compliance with EU law or the Czech law;
+&lt;br&gt; d. The right to request the restriction of processing: you have the right to request the restriction of processing in cases where: (i) you consider that the processed personal data are inaccurate, for a period enabling the controller to verify the accuracy of the personal data; (ii) the processing is unlawful, however you do not want us to erase your personal data, but to restrict the use of data; (iii) in case that OMV no longer needs your personal data for the above-mentioned purposes, but you are requiring the data for establishing, exercising or defending a legal claim or (iv) you have objected to processing pending the verification whether the legitimate grounds of the data controller override those of the data subject;
+&lt;br&gt; e. The right to object to the data processing on grounds relating to your particular situation, when the processing is based on legitimate interest and to object at any moment to the data processing for direct marketing purposes, including profiling;
+&lt;br&gt; f. The right to data portability, meaning the right to receive your personal data, which you provided to OMV in a structured, commonly used and machine-readable format and the right to transfer those data to another controller;
+&lt;br&gt;g. The right to file a complaint with the Data Protection Authority – the Office for Personal Data Protection (www.uoou.cz).
+In connection with the operation of the business portal, there is no decision-making based on automated processing, including profiling, which would have legal effects for you or significantly affect you in a similar way, as provided for in Article 22 of the GDPR.
+Further information on data protection including the rights to which you are entitled on the basis of the GDPR can be also found under https://www.omv.cz/gdpr-info  
+&lt;br&gt;
+If you have any questions, the Local data protection officer of OMV can be contacted at privacy.cz@omv.com. &lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>Body__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. Co je účelem tohoto dokumentu?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Toto prohlášení o ochraně osobních údajů společnosti OMV Česká republika s.r.o, se sídlem Štětkova 1638/18, Nusle, 140 00 Praha 4, IČ 480 38 687 (dále jen „OMV“) poskytuje informace o účelu i o způsobu zpracování osobních údajů v souvislosti s používáním platformy SalesForce. Zákaznický portál na platformě SalesForce je webový portál/aplikace používané pro online přístup k objednávkám, fakturám a informacím pro velkoobchodní zákazníky s přímými dodávkami a vlastními záznamy o spotřebě paliva. 
+&lt;br&gt;
+Prostřednictvím zákaznického portálu OMV zasílá všechny faktury v elektronickém formátu a umožňuje svým zákazníkům elektronicky objednávat zboží nebo služby OMV. OMV zákaznický portál také zákazníkovi zpřístupní online záznamy informací týkajících se dohod mezi OMV a zákazníkem a/nebo obchodních nabídek adresovaných zákazníkovi, jakož i informace o možném úvěrovém limitu a obecných údajích zákazníka.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;2. Které osobní údaje jsou v aplikaci zpracovávány a jaký je právní základ jejich zpracování?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV zpracovává osobní údaje za účelem správy zákazníků na základě plnění smlouvy, jak je definováno v čl. 6 odst. 1 písm. b) GDPR.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Jaké osobní údaje uchováváme?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV zpracovává následující osobní údaje v online portálu, které jsou nezbytné pro výše uvedené účely: kontaktní informace, prostřednictvím kterých Vás můžeme identifikovat, například celé jméno, telefonní číslo (čísla), funkce, pozice, název a adresa společnosti a také e mailová adresa společnosti.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Proč OMV potřebuje Vaše osobní údaje a jak jsou používány (příjemce údajů)&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Osobní údaje budou zpřístupněny pouze odpovědným zaměstnancům OMV za účelem správy zákazníků. Možným příjemcem Vašich osobních údajů je externí poskytovatel služeb Saleforce.com, který provozuje webový portál a zajišťují průběžnou údržbu a servis. Portál spravuje společnost OMV a Vaše osobní údaje nebudou předávány do zemí mimo EU.
+Vezměte prosím na vědomí, že v případech odůvodněných zákonem může být společnost OMV požádána o předání osobních údajů příslušným státním orgánům, jako jsou orgány obchodní inspekce, finanční úřad, policie nebo jiné veřejné orgány.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. Po jakou dobu zpracováváme Vaše osobní údaje? &lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Společnost OMV uchovává Vaše osobní údaje po dobu trvání účelu zpracování nebo pokud existují právní povinnosti uchovávat údaje. V zásadě budou údaje uloženy, dokud bude platná smlouva a uživatelský účet bude aktivní.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;6. Jaká jsou Vaše práva v souvislosti se zpracováním osobních údajů? &lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;V souvislosti se zpracováním Vašich osobních údajů Vám náleží následující práva:
+&lt;br&gt;a. Právo na přístup k osobním údajům: máte právo získat potvrzení, zda osobní údaje, které se Vás týkají, jsou či nejsou zpracovávány, a pokud je tomu tak, máte právo získat přístup k těmto osobním údajům a k informacím o podmínkách jejich zpracování. Pro uplatnění tohoto práva se obraťte na OMV.
+&lt;br&gt;b. Právo požadovat opravu osobních údajů: máte právo požadovat, aby společnost OMV opravila nepřesné osobní údaje nebo doplnila neúplné osobní údaje, které se Vás týkají, případně tyto údaje vymazala. 
+&lt;br&gt;c. Právo požadovat výmaz osobních údajů: výmaz osobních údajů lze požadovat pouze v případě, že: (i) osobní údaje již nejsou potřebné pro účely, pro které byly původně shromážděny nebo jinak zpracovány, a nový právní základ pro zpracování není dán, (ii) využijete právo vznést námitku a OMV nemá žádné převažující oprávněné důvody pro pokračování zpracování, (iii) osobní údaje byly zpracovávány protiprávně nebo (iv) výmaz musí být proveden pro zajištění souladu s českými právními předpisy nebo s právem EU.
+&lt;br&gt;d. Právo požadovat omezení zpracování: máte právo požadovat omezení zpracování Vašich osobních údajů v kterémkoli z následujících případů: (i) pokud tvrdíte, že námi zpracovávané osobní údaje jsou nepřesné, a to na dobu potřebnou k tomu, aby OMV mohla přesnost osobních údajů ověřit, (ii) zpracování je protiprávní a současně nepožadujete výmaz osobních údajů a žádáte místo toho o omezení jejich použití, (iii) OMV již Vaše osobní údaje nepotřebuje pro účely zpracování, ale Vy sami je požadujete pro určení, výkon nebo obhajobu právních nároků, (iv) vznesli jste námitku proti zpracování osobních údajů, a tedy zpracování bude omezeno, dokud nebude ověřeno, zda oprávněné důvody OMV převažují nad oprávněnými důvody subjektu údajů.
+&lt;br&gt;e. Právo vznést námitku proti zpracování osobních údajů z důvodů týkajících se Vaší konkrétní situace, pokud je zpracování založeno na oprávněném zájmu, a kdykoli vznést námitku proti zpracování údajů pro účely přímého marketingu, včetně profilování.
+&lt;br&gt;f. Právo na přenositelnost osobních údajů, tzn. právo získat osobní údaje, které jste poskytli OMV ve strukturovaném, běžně používaném a strojově čitelném formátu, a právo předat tyto údaje jinému správci.
+&lt;br&gt;g. Právo podat stížnost k příslušnému dozorovému úřadu v oblasti ochrany osobních údajů - Úřad pro ochranu osobních údajů (www.uoou.cz). 
+V souvislosti s provozem obchodního portálu nedochází k rozhodování na základě automatizovaného zpracování, včetně profilování, které by pro Vás mělo právní účinky nebo se Vás obdobným způsobem významně dotýkalo tak, jak předpokládá čl. 22 GDPR.
+&lt;br&gt;
+Další informace včetně uplatnění svých práv souvisejících se zpracováním osobních údajů naleznete také v odkazu www.omv.cz/gdpr-info. Můžete také uplatnit svá práva vyplněním formuláře pod výše uvedeným odkazem.
+&lt;br&gt;
+V případě jakýchkoliv dotazů se obracejte na pověřence pro ochranu osobních údajů dostupného prostřednictvím e-mailové adresy: privacy.cz@omv.com.
+&lt;br&gt;
+Datum účinnosti:
+Tyto Zásady ochrany osobních údajů jsou závazné a účinné od 17. 9. 2021.
+&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>CountryIsoCode__c</field>
+        <value xsi:type="xsd:string">CZ</value>
+    </values>
+    <values>
+        <field>TimeZone__c</field>
+        <value xsi:type="xsd:string">Europe/Prague</value>
+    </values>
+    <values>
+        <field>Title_English__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Privacy Policy in accordance with Art. 13 and 14 of the General Data Protection Regulation („GDPR“)&lt;/h1&gt;</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Zásady ochrany osobních údajů v souladu s čl. 13 a 14 obecného nařízení o ochraně osobních údajů („GDPR“)&lt;/h1&gt;</value>
+    </values>
+</CustomMetadata>

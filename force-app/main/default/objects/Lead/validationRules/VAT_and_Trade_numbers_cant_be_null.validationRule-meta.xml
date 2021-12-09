@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_and_Trade_numbers_cant_be_null</fullName>
+    <active>true</active>
+    <description>Rule to not allow users to create leads without at least one registration number</description>
+    <errorConditionFormula>NOT($Setup.CEPSkipValidationRules__c.Lead__c) &amp;&amp;
+RecordType.DeveloperName != &quot;DatabaseInfoLead&quot; &amp;&amp;
+ISBLANK(VAT_Tax_Number__c) &amp;&amp;   
+ISBLANK( TradeRegistrationNumber__c)</errorConditionFormula>
+    <errorMessage>Please provide a company registration number: VAT/Tax number and/or Trade register number/GISA</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Batch_Definition__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Batch link for which this parameter is valid</description>
+    <externalId>false</externalId>
+    <label>Batch Definition</label>
+    <referenceTo>Batch_Definition__c</referenceTo>
+    <relationshipLabel>Parameters</relationshipLabel>
+    <relationshipName>Parameters</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

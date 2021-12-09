@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SalesChannel__c</fullName>
+    <description>Channel used to establish contact and business with the customer account for CARDS business</description>
+    <externalId>false</externalId>
+    <label>Sales Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Dlr Agent</fullName>
+                <default>false</default>
+                <label>Dlr Agent</label>
+            </value>
+            <value>
+                <fullName>IKAM</fullName>
+                <default>false</default>
+                <label>IKAM</label>
+            </value>
+            <value>
+                <fullName>FBAM</fullName>
+                <default>false</default>
+                <label>FBAM</label>
+            </value>
+            <value>
+                <fullName>OBAM</fullName>
+                <default>false</default>
+                <label>OBAM</label>
+            </value>
+            <value>
+                <fullName>CSO</fullName>
+                <default>false</default>
+                <label>CSO</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Cooperation</fullName>
+                <default>false</default>
+                <label>Cooperation</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Tender</fullName>
+                <default>false</default>
+                <label>Tender</label>
+            </value>
+            <value>
+                <fullName>Filling Station</fullName>
+                <default>false</default>
+                <label>Filling Station</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpenChildCases__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to identify if this Case has any child cases that are open</description>
+    <externalId>false</externalId>
+    <label>Open Child Cases</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

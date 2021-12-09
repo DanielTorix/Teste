@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OwnerName__c</fullName>
+    <description>This field will be used to display the appropriate Owner (if Queue or if User) in the column of the related lists</description>
+    <externalId>false</externalId>
+    <formula>IF(
+
+				MID(OwnerId,1,3) = &apos;005&apos;,
+
+				Owner:User.FirstName + &apos; &apos; + Owner:User.LastName,
+
+				Owner:Queue.QueueName
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Owner Name</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

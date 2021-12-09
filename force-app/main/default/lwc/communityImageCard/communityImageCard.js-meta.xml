@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+      <target>lightningCommunity__Page</target>
+      <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+      <targetConfig targets="lightningCommunity__Default">
+        <property name="width" type="String" default="300px" description="width for the component" />
+        <property name="height" type="String" default="250px" description="height for the component" />
+        <property name="header" type="String" default="Sample Header Text" description="header text" />
+        <property name="headerStyle" type="String" default="padding-top: 25px; text-align: center; font-family: &quot;Sans Pro&quot;, Helvetica, Sans-Serif; font-size: 24px; font-weight: bold; color: white;" description="header style" />
+        <property name="content" type="String" default="Sample Body Text" description="body text" />
+        <property name="contentStyle" type="String" default="padding-top: 25px; text-align: center; font-family: &quot;Sans Pro&quot;, Helvetica, Sans-Serif; font-size: 18px; color: white;" description="body style" />
+        <property name="button" type="String" default="Sample Details" description="button label" />
+        <property name="buttonURL" type="String" default="https://www.lipsum.com" description="redirect URL when button clicked" />
+        <property name="buttonStyle" type="String" default="background-color: #33cc00; border: none; color: white; padding: 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 14px; margin: 4px 2px; cursor: pointer; border-radius: 30px;" description="button style" />
+        <property name="buttonDivStyle" type="String" default="text-align: center; padding-top: 25px;" description="style for the div that contains the button" />
+        <property name="backgroundStyle" type="String" default="background-color: black; background-size: 100% 100%;" description="style for the background" />
+        <property name="backgroundImage" type="String" default="CEPFPSPortalHeaderImg" description="image document unique name" />
+      </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

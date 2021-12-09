@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CategoryT1__c</fullName>
+    <description>Field to register the T1 category of the Case</description>
+    <externalId>false</externalId>
+    <label>Category T1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Card</fullName>
+                <default>false</default>
+                <label>Card</label>
+            </value>
+            <value>
+                <fullName>Credit Management</fullName>
+                <default>false</default>
+                <label>Credit Management</label>
+            </value>
+            <value>
+                <fullName>Customer invoicing</fullName>
+                <default>false</default>
+                <label>Customer invoicing</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Vouchers</fullName>
+                <default>false</default>
+                <label>Vouchers</label>
+            </value>
+            <value>
+                <fullName>VAS</fullName>
+                <default>false</default>
+                <label>VAS</label>
+            </value>
+            <value>
+                <fullName>FS acceptance support</fullName>
+                <default>false</default>
+                <label>FS acceptance support</label>
+            </value>
+            <value>
+                <fullName>FS operation</fullName>
+                <default>false</default>
+                <label>FS operation</label>
+            </value>
+            <value>
+                <fullName>Fleet Online</fullName>
+                <default>false</default>
+                <label>Fleet Online</label>
+            </value>
+            <value>
+                <fullName>Contracting process</fullName>
+                <default>false</default>
+                <label>Contracting process</label>
+            </value>
+            <value>
+                <fullName>Request for offer</fullName>
+                <default>false</default>
+                <label>Request for offer</label>
+            </value>
+            <value>
+                <fullName>Authority request</fullName>
+                <default>false</default>
+                <label>Authority request</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Petrom CC (RO)</fullName>
+                <default>false</default>
+                <label>Petrom CC (RO)</label>
+            </value>
+            <value>
+                <fullName>Fuel quality</fullName>
+                <default>false</default>
+                <label>Fuel quality</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Behavior</fullName>
+                <default>false</default>
+                <label>Behavior</label>
+            </value>
+            <value>
+                <fullName>Case Category 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Case Category 1</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

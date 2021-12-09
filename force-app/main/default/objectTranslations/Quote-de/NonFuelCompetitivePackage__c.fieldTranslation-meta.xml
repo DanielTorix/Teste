@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>NonFuelCompetitivePackage__c</name>
+    <picklistValues>
+        <masterLabel>Non Fuel Package - NF1</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Fuel Package - NF2</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Fuel Package - NF3</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEPAccountCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>IFCSCustomerNumber__c</fields>
+    <fields>SAPNumber__c</fields>
+    <fields>TradeRegistrationNumber__c</fields>
+    <fields>VAT_Tax_Number__c</fields>
+    <fields>AccountOwner__c</fields>
+    <fields>CustomerSegment__c</fields>
+    <label>CEP Account Compact Layout</label>
+</CompactLayout>

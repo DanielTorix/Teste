@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CSO BA - Card Management</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>CSO_Card_Management_Bratislava</publicGroup>
+            <publicGroup>CSO_Customer_Support_Bratislava</publicGroup>
+            <publicGroup>CSO_Manager</publicGroup>
+            <publicGroup>CSO_Senior_Agent_Bratislava</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

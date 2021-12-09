@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>tip fakture</label>
+    <name>TypeOInvoice__c</name>
+    <picklistValues>
+        <masterLabel>Advance payment</masterLabel>
+        <translation>avansno placanje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS12</masterLabel>
+        <translation>bonus faktura</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bonus invoice - ZS92</masterLabel>
+        <translation>bonus faktura</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel invoice debit</masterLabel>
+        <translation>storno fakture</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancel prepayment invoice</masterLabel>
+        <translation>storno predračuna</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS13</masterLabel>
+        <translation>faktura za proviziju</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commission invoice - ZS93</masterLabel>
+        <translation>faktura za proviziju</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Credit memo invoice</masterLabel>
+        <translation>knjizno odobrenje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD</masterLabel>
+        <translation>knjizno zaduzenje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD1</masterLabel>
+        <translation>knjizno zaduzenje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit memo invoice - ZMD2</masterLabel>
+        <translation>knjizno zaduzenje</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Debit note CO2</masterLabel>
+        <translation>knjizno zaduzenje C02</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice debit</masterLabel>
+        <translation>zaduzenje fakture</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DA</masterLabel>
+        <translation>kamate DA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Late Interests - DF</masterLabel>
+        <translation>kamate DF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepayment invoice</masterLabel>
+        <translation>predračun</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Return invoice</masterLabel>
+        <translation>storno računa</translation>
+    </picklistValues>
+</CustomFieldTranslation>

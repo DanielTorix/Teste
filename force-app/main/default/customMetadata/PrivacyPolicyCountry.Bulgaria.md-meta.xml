@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Bulgaria</label>
+    <protected>false</protected>
+    <values>
+        <field>Body_English__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. Purpose of this privacy policy&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The present data protection statement of OMV Bulgaria Ltd (hereinafter referred to as &quot;OMV&quot;) provides information on the purpose as well as the manner of processing of personal data in connection with the use of the Salesforce.com platform.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;2. Purpose and legal basis of the data processing&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data are processed by OMV for the purpose of customer management on the legal basis of contract fulfillment as defined in Art 6 para 1 letter b) GDPR.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Which personal data is collected?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV processes the following personal information in the online portal that is necessary for the above-mentioned purposes: contact information that makes you identifiable, such as full name, telephone number(s), function, position, company name and address as well as company email address.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Why OMV needs your personal data and how they are used (recipient of the data)&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The personal data will only be viewed by the responsible OMV employees for the purpose of customer management. The possible recipients of your personal data are external service providers, which offer the web portal and provide ongoing maintenance and services. The platform is maintained by OMV and the data are hosted in European data centers.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. How long is your data stored?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;OMV stores your data for as long as the purpose of the data processing requires it or legal obligations to retain data exist. In principle, the data will be stored as long as the contract is valid, and the user account is active, plus an additional period of 5 (five) years.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;6. Other rights to process your personal data in accordance with GDPR&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Further information on data protection including the rights to which you are entitled on the basis of the GDPR can be also found under https://www.omv.bg/bg-bg/omv-v-bulgaria/za-kompaniyata/lichni-danni.
+&lt;br&gt;
+If you have any questions, the Group data protection officer of OMV can be contacted at  privacy.bg@omv.com&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>Body__c</field>
+        <value xsi:type="xsd:string">&lt;p&gt;&lt;b&gt;1. Цел на тази политика за поверителност&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Настоящата политика за защита на личните данни на ОМВ България ООД (по-долу наричано &quot;ОМВ&quot;) предоставя информация за целите и начина на обработване лични данни във връзка с използването на платформата Salesforce.com.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;2. Цел и правно основание на обработването на данните&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Личните данни се обработват от ОМВ за целите управлението на връзката с клиенти с правно основание изпълнение на договори съгласно чл. 6, пар. 1, б. „b“ ОРЗД.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;3. Какви данни се събират?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;ОМВ обработва следните лични данни в онлайн портала, които са необходими за горепосочените цели: информация за връзка с Вас, чрез която можете да бъдете идентифицирани, като пълното име, телефонен(нни) номер(а), длъжност, позиция, име на дружеството и адрес както служебен имейл адрес.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;4. Защо са необходими на ОМВ Вашите лични данни и как се използват (получател на данните)?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Достъп до личните данни имат само служители на ОМВ, отговарящи за връзката с клиентите. Потенциални получатели на Вашите лични данни са външни доставчици на услуги, които осигуряват уеб портала, както и текуща поддържа и обслужване. Платформата е подържана от страна на ОМВ, като данните се съхраняват в европейски центрове за данни.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;5. За какъв срок се съхраняват Вашите данни?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;ОМВ съхранява Вашите данни за срок, необходим съобразно целите на обработка на лични данни или докато съществуват правни задължения за съхранение на данните. По принцип, данните се съхраняват за срока на действие на договора и докато потребителския акаунт продължава да бъде активен, плюс допълнителен срок от 5 (пет) години.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;6. Други права на обработка на Вашите лични данни съгласно ОРЗД?&lt;/b&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Допълнителна информация за защита на данните, включително за правата, които Вие имате на основание ОРЗД, може да бъде намерена на https://www.omv.bg/bg-bg/omv-v-bulgaria/za-kompaniyata/lichni-danni.
+&lt;br&gt;
+Ако имате въпроси, можете да се свържете с длъжностното лице по защита на личните данни на ОМВ на privacy.bg@omv.com.
+&lt;/p&gt;</value>
+    </values>
+    <values>
+        <field>CountryIsoCode__c</field>
+        <value xsi:type="xsd:string">BG</value>
+    </values>
+    <values>
+        <field>TimeZone__c</field>
+        <value xsi:type="xsd:string">Europe/Sofia</value>
+    </values>
+    <values>
+        <field>Title_English__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Privacy Policy in accordance with Art. 13 and 14 of the General Data Protection Regulation („GDPR“)&lt;/h1&gt;</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">&lt;h1&gt;Политика за поверителност съгласно чл. 13 и чл. 14 от Общия регламент относно защитата на данните („ОРЗД“)&lt;/h1&gt;</value>
+    </values>
+</CustomMetadata>

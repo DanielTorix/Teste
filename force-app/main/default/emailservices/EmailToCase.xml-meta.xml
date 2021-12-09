@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailServicesFunction xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <apexClass xsi:nil="true"/>
+    <attachmentOption>All</attachmentOption>
+    <authenticationFailureAction>Bounce</authenticationFailureAction>
+    <authorizationFailureAction>Discard</authorizationFailureAction>
+    <emailServicesAddresses>
+        <developerName>guilherme_charro</developerName>
+        <isActive>true</isActive>
+        <localPart>guilherme.charro</localPart>
+        <runAsUser>daniel.murracas@capgemini.com.dev</runAsUser>
+    </emailServicesAddresses>
+    <emailServicesAddresses>
+        <developerName>dummy_omvcep_dev_emailt</developerName>
+        <isActive>true</isActive>
+        <localPart>dummy.omvcep.dev.emailtocase</localPart>
+        <runAsUser>daniel.murracas@capgemini.com.dev</runAsUser>
+    </emailServicesAddresses>
+    <functionInactiveAction>Bounce</functionInactiveAction>
+    <functionName>EmailToCase</functionName>
+    <isActive>true</isActive>
+    <isAuthenticationRequired>false</isAuthenticationRequired>
+    <isErrorRoutingEnabled>false</isErrorRoutingEnabled>
+    <isTextAttachmentsAsBinary>true</isTextAttachmentsAsBinary>
+    <isTlsRequired>false</isTlsRequired>
+    <overLimitAction>Requeue</overLimitAction>
+</EmailServicesFunction>

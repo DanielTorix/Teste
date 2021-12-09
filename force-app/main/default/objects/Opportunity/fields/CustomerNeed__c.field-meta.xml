@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerNeed__c</fullName>
+    <description>Type some notes about the customer&apos;s requirements, to help the sales team identify products and services that could meet their requirements.</description>
+    <externalId>false</externalId>
+    <label>Customer Need</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>
